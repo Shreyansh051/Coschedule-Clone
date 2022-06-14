@@ -1,3 +1,3 @@
 # Coschedule-Clone
-# Group projecct 
+# Group project 
 
