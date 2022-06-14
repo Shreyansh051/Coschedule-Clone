@@ -1,11 +1,11 @@
 import './App.css';
-import AllRoutes from './componenet/AllRoutes';
+import AllRoutes from './component/AllRoutes';
 
 function App() {
   return (
     <div className='App'>
-      <h2>coschedule</h2>
       <AllRoutes />
+      <h2>coschedule</h2>
     </div>
   );
 }
