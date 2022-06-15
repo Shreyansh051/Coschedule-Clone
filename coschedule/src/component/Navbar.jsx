@@ -98,7 +98,7 @@ export default function WithSubnavigation() {
             _hover={{
               bg: 'pink.300',
             }}>
-            <Link as={ReachLink} to='/Calender'>
+            <Link as={ReachLink} to='/createCalendar'>
               Create My calender
             </Link>
           </Button>

@@ -7,6 +7,7 @@ import Footer from './Footer';
 import Pricing from '../pages/Pricing';
 import Home from "../component/Home"
 import GetADemo from '../pages/GetADemo';
+import CreateCalendar from '../pages/CreateCalendar';
 const AllRoutes = () => {
   return (
     <div>
@@ -16,6 +17,7 @@ const AllRoutes = () => {
         <Route path='/Calender' element={<Calender />} />
         <Route path='/Pricing' element={<Pricing />} />
         <Route path="/getADemo" element={<GetADemo />} />
+        <Route path="/createCalendar" element={<CreateCalendar />} />
       </Routes>
       <Box></Box>
       <h2 style={{ marginTop: '50px' }}>
