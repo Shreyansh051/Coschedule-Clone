@@ -100,7 +100,6 @@ body{
 .BigBox{
     padding: 70px 0;
     background-color: #f8f8f8!important;
-  border: 2px solid black;
     width: 1263.33px;
     height: 1230.42px;
 }
@@ -119,12 +118,106 @@ body{
 }
 .boxA{
     margin-bottom: 40px;
-   border: 2px solid orange;
+ 
 }
-.boxB{
+.box{
     width: 1000px;
     height: 518.46px;
     display: flex;
     margin: auto;
-    border: 2px solid red;
+   
+}
+.inside{
+  
+    width:460px;
+    height:478.46px;
+    background-color: #fff;
+    border-radius: 4px;
+    overflow: hidden;
+    padding: 80px 40px 40px;
+    margin: 20px;
+    position: relative;
+}
+.smallBox{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 120px;
+}
+
+.banner{
+    width: 460px;
+    height: 120px;
+    object-fit: cover;
+}
+
+.imglogo{
+ width: 60px;
+ height: 60px;
+ position: absolute;
+ margin-left:40px ;
+ margin-top: -40px;
+ border-radius:4px;
+ margin-bottom: 20px;
+ box-shadow: 2px 2px 20px 0 rgb(0 0 0 / 20%);
+}
+.svglogo{
+    box-shadow: 2px 2px 20px 0 rgb(0 0 0 / 20%);
+    background-color: #fff;
+    border-radius: 4px;
+    width: 60px;
+    height: 60px;
+    position: relative;
+    z-index: 2;
+    overflow: hidden;
+    fill:#618be0;
+    margin-left: 40px;
+    margin-top: -40px;
+    margin-bottom: 20px;
+}
+.svglogo1{
+    box-shadow: 2px 2px 20px 0 rgb(0 0 0 / 20%);
+    background-color: #fff;
+    border-radius: 4px;
+    position: relative;
+    z-index: 2;
+    overflow: hidden;
+    margin-left: 10px;
+    margin-left: 40px;
+    margin-top: -40px;
+    margin-bottom: 20px;
+    fill:#8256e7
+    
+}
+.subheading{
+    font-family: MuseoSans-700,sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 22px;
+    margin: 0;
+}
+.subpara{
+    font-size: 15px;
+    padding: 3px 0;
+    color: #4b4b4b;
+    line-height: 170%;
+    box-sizing: border-box;
+    font-family: MuseoSans-300,sans-serif;
+  
+
+}
+.ullist{
+    list-style-image: url(https://coschedule.com/img/home/orange-checkmark.svg);
+    padding-left: 30px;
+    margin: 20px 0 25px;
+
+}
+.checkbtn{
+    background-color: #ffede3;
+    color: #f37e5d;
+    transition: all .25s ease-in-out;
+    padding: 12px 30px;
+    min-width: auto;
+    font-size: 13px;
 }

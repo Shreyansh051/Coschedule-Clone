@@ -1,3 +1,4 @@
+import "../Css/Navbar.css"
 import {
   Box,
   Flex,
@@ -76,6 +77,7 @@ export default function WithSubnavigation() {
           direction={'row'}
           spacing={6}>
           <Button
+           className="stop"
             as={'a'}
             fontSize={'sm'}
             fontWeight={400}
@@ -84,10 +86,11 @@ export default function WithSubnavigation() {
             fontFamily={'heading'}>
             Sign In
           </Button>
-          <Button as={'a'} fontSize={'15px'} fontWeight={400} variant={'link'}>
-            Get A ademo
+          <Button className="stop" as={'a'} fontSize={'15px'} fontWeight={400} variant={'link'}>
+            Get A demo
           </Button>
           <Button
+          
             display={{ base: 'none', md: 'inline-flex' }}
             fontSize={'sm'}
             fontWeight={600}
@@ -96,7 +99,7 @@ export default function WithSubnavigation() {
             _hover={{
               bg: '#f16b45',
             }}>
-            <Link as={ReachLink} to='/Calender'>
+            <Link className="stop" as={ReachLink} to='/Calender'>
               Create My calender
             </Link>
           </Button>
