@@ -45,6 +45,11 @@ const GetADemo = () => {
           </form>
         <p className={styles.terms}><span>By signing up, you agree to CoSchedule’s </span><span className={styles.underlined}>terms of service, end user agreement, and privacy policy</span><span>; you are 16 years or older; and you will receive information from CoSchedule from which you can opt out at any time.</span></p>
         </div>
+
+        <p className={styles.terms} style={{ marginTop:'60px'}}>
+          <span>© Copyright 2022, all rights reserved.  </span>
+          <span className={styles.underlined} > See our Terms & Policies.</span>
+        </p>
     </div>
   )
 }
