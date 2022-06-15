@@ -5,7 +5,7 @@ function App() {
   return (
     <div className='App'>
       <AllRoutes />
-      <h2>coschedule</h2>
+      
     </div>
   );
 }

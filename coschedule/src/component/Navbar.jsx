@@ -92,9 +92,9 @@ export default function WithSubnavigation() {
             fontSize={'sm'}
             fontWeight={600}
             color={'white'}
-            bg={'pink.400'}
+            bg={'#f37e5d'}
             _hover={{
-              bg: 'pink.300',
+              bg: '#f16b45',
             }}>
             <Link as={ReachLink} to='/Calender'>
               Create My calender
