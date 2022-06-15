@@ -1,268 +1,351 @@
-body{
-    font-family: MuseoSans-300,sans-serif;
+body {
+  font-family: MuseoSans-300, sans-serif;
 }
-.heading{
-    color: #4b4b4b;
-    font-size: 50px;
-    font-family: MuseoSans-700,sans-serif;
-    font-weight: 600;
-    letter-spacing: -.3px;
-    line-height: 130%;
-    text-transform: none;
-    width: 75%;
-    margin: auto;
-    margin-top:20px;
+.heading {
+  color: #4b4b4b;
+  font-size: 50px;
+  font-family: MuseoSans-700, sans-serif;
+  font-weight: 600;
+  letter-spacing: -0.3px;
+  line-height: 130%;
+  text-transform: none;
+  width: 75%;
+  margin: auto;
+  margin-top: 20px;
 }
-.para{
-    font-size: 18px;
-    line-height: 150%;
-    margin: 5px 0 25px;
-    font-family: MuseoSans-300,sans-serif;
-    color: #4b4b4b;
-    text-align: center;
-    font-weight:100;
-
+.para {
+  font-size: 18px;
+  line-height: 150%;
+  margin: 5px 0 25px;
+  font-family: MuseoSans-300, sans-serif;
+  color: #4b4b4b;
+  text-align: center;
+  font-weight: 100;
 }
-.button{
-    background-color: #f37e5d;;
-    color: #fff!important;
-    display: inline-block;
-    min-width: 220px;
-    padding: 15px 20px;
-    border-radius: 3px;
-    border-radius: 3px;
-    cursor: pointer;
-    font-family: MuseoSans-700,sans-serif;
-    font-size: 15px;
-    font-weight: 400;
-    line-height: 1.428571429;
-    text-align: center;
-    transition-property: all;
-    transition-duration: 0.2s;
-    transition-timing-function: ease-in-out;
-    transition-delay: 0s;
+.button {
+  background-color: #f37e5d;
+  color: #fff !important;
+  display: inline-block;
+  min-width: 220px;
+  padding: 15px 20px;
+  border-radius: 3px;
+  border-radius: 3px;
+  cursor: pointer;
+  font-family: MuseoSans-700, sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 1.428571429;
+  text-align: center;
+  transition-property: all;
+  transition-duration: 0.2s;
+  transition-timing-function: ease-in-out;
+  transition-delay: 0s;
 }
-.button:hover{
-    background-color: #f16b45;
+.button:hover {
+  background-color: #f16b45;
 }
-.imgposter{
- width: 1140px;
- height: 506.34px;
- margin:auto;
+.imgposter {
+  width: 1140px;
+  height: 506.34px;
+  margin: auto;
 }
-.small{
-    font-size: 14px;
-    font-style: normal;
-    margin: 10px auto 0;
-    max-width: 300px;
-    line-height: 150%;
-    color: #4b4b4b;
-    font-size: 14px;
+.small {
+  font-size: 14px;
+  font-style: normal;
+  margin: 10px auto 0;
+  max-width: 300px;
+  line-height: 150%;
+  color: #4b4b4b;
+  font-size: 14px;
 }
-.heading2{
-    color: #4b4b4b;
-    font-size: 30px;
-    font-family: MuseoSans-700,sans-serif;
-    font-weight: 600;
-    letter-spacing: -.3px;
-    line-height: 130%;
-    text-transform: none;
-    width: 75%;
-    margin: auto;
-    margin-top:40px;
+.heading2 {
+  color: #4b4b4b;
+  font-size: 30px;
+  font-family: MuseoSans-700, sans-serif;
+  font-weight: 600;
+  letter-spacing: -0.3px;
+  line-height: 130%;
+  text-transform: none;
+  width: 75%;
+  margin: auto;
+  margin-top: 40px;
 }
-.container{
-    margin-right: auto;
-    margin-left: auto;
-    padding-left: 15px;
-    padding-right: 15px;
-    width:1170px;
-    height: 194px;
-  
+.container {
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  width: 1170px;
+  height: 194px;
 }
-.second_container{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    width:1140px;
-    height: 194px;
-    
+.second_container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 1140px;
+  height: 194px;
 }
-.customerlogo{
-    margin: 10px 20px 20px;
-    width:184px;
-    height: 68px;
+.customerlogo {
+  margin: 10px 20px 20px;
+  width: 184px;
+  height: 68px;
 }
-.imgstyle{
-    width: 180px;
-    height: 67px;
+.imgstyle {
+  width: 180px;
+  height: 67px;
 }
-.BigBox{
-    padding: 70px 0;
-    background-color: #f8f8f8!important;
-    width: 1263.33px;
-    height: 1230.42px;
+.BigBox {
+  padding: 70px 0;
+  background-color: #f8f8f8 !important;
+  width: 1263.33px;
+  height: 1230.42px;
 }
 
-.heading3{
-    color: #4b4b4b;
-    font-size: 30px;
-    font-family: MuseoSans-700,sans-serif;
-    font-weight: 600;
-    letter-spacing: -.3px;
-    line-height: 130%;
-    text-transform: none;
-    width: 75%;
-    margin: auto;
-    margin-top:40px;
+.heading3 {
+  color: #4b4b4b;
+  font-size: 30px;
+  font-family: MuseoSans-700, sans-serif;
+  font-weight: 600;
+  letter-spacing: -0.3px;
+  line-height: 130%;
+  text-transform: none;
+  width: 75%;
+  margin: auto;
+  margin-top: 10px;
 }
-.boxA{
-    margin-bottom: 40px;
- 
+.boxA {
+  margin-bottom: 40px;
 }
-.box{
-    width: 1000px;
-    height: 518.46px;
-    display: flex;
-    margin: auto;
-   
+.box {
+  width: 1000px;
+  height: 518.46px;
+  display: flex;
+  margin: auto;
+  margin-top: -10px;
 }
-.inside{
-  
-    width:460px;
-    height:478.46px;
-    background-color: #fff;
-    border-radius: 4px;
-    overflow: hidden;
-    padding: 80px 40px 40px;
-    margin: 20px;
-    position: relative;
+.inside {
+  width: 460px;
+  height: 478.46px;
+  background-color: #fff;
+  border-radius: 4px;
+  overflow: hidden;
+  padding: 80px 40px 40px;
+  margin: 20px;
+  position: relative;
+  box-shadow: 2px 2px 20px 0 rgb(0 0 0 / 20%);
 }
-.smallBox{
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    height: 120px;
-}
-
-.banner{
-    width: 460px;
-    height: 120px;
-    object-fit: cover;
+.smallBox {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 120px;
 }
 
-.imglogo{
- width: 60px;
- height: 60px;
- position: absolute;
- margin-left:40px ;
- margin-top: -40px;
- border-radius:4px;
- margin-bottom: 20px;
- box-shadow: 2px 2px 20px 0 rgb(0 0 0 / 20%);
+.banner {
+  width: 460px;
+  height: 120px;
+  object-fit: cover;
 }
-.svglogo{
-    box-shadow: 2px 2px 20px 0 rgb(0 0 0 / 20%);
-    background-color: #fff;
-    border-radius: 4px;
-    width: 60px;
-    height: 60px;
-    position: relative;
-    z-index: 2;
-    overflow: hidden;
-    fill:#618be0;
-    margin-left: 40px;
-    margin-top: -40px;
-    margin-bottom: 20px;
+
+.imglogo {
+  width: 60px;
+  height: 60px;
+  position: absolute;
+  margin-left: 40px;
+  margin-top: -40px;
+  border-radius: 4px;
+  margin-bottom: 20px;
+  box-shadow: 2px 2px 20px 0 rgb(0 0 0 / 20%);
 }
-.svglogo1{
-    box-shadow: 2px 2px 20px 0 rgb(0 0 0 / 20%);
-    background-color: #fff;
-    border-radius: 4px;
-    position: relative;
-    z-index: 2;
-    overflow: hidden;
-    margin-left: 10px;
-    margin-left: 40px;
-    margin-top: -40px;
-    margin-bottom: 20px;
-    fill:#8256e7
-    
+.svglogo {
+  box-shadow: 2px 2px 20px 0 rgb(0 0 0 / 20%);
+  background-color: #fff;
+  border-radius: 4px;
+  width: 60px;
+  height: 60px;
+  position: relative;
+  z-index: 2;
+  overflow: hidden;
+  fill: #618be0;
+  margin-left: 40px;
+  margin-top: -40px;
+  margin-bottom: 20px;
 }
-.subheading{
-    font-family: MuseoSans-700,sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 22px;
-    margin-top: 40px;
-    margin-left: 40px;
-    text-align: left;
+.svglogo1 {
+  box-shadow: 2px 2px 20px 0 rgb(0 0 0 / 20%);
+  background-color: #fff;
+  border-radius: 4px;
+  position: relative;
+  z-index: 2;
+  overflow: hidden;
+  margin-left: 10px;
+  margin-left: 40px;
+  margin-top: -40px;
+  margin-bottom: 20px;
+  fill: #8256e7;
 }
-.subpara{
-    font-size: 15px;
-    padding: 3px 0;
-    color: #4b4b4b;
-    line-height: 170%;
-    box-sizing: border-box;
-    font-family: MuseoSans-300,sans-serif;
-    text-align: left;
-    margin-top: 6px;
-    margin-left: 40px;
+.subheading {
+  font-family: MuseoSans-700, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 22px;
+  margin-top: 40px;
+  margin-left: 40px;
+  text-align: left;
 }
-.ullist{
-    list-style-image: url(https://coschedule.com/img/home/orange-checkmark.svg);
-    padding-left: 50px;
-    margin: 20px 0 25px;
-    margin-left: 22px;
-    width: 340px;
-    line-height: 2;
-    margin-bottom: 38px;
+.subpara {
+  font-size: 15px;
+  padding: 3px 0;
+  color: #4b4b4b;
+  line-height: 170%;
+  box-sizing: border-box;
+  font-family: MuseoSans-300, sans-serif;
+  text-align: left;
+  margin-top: 6px;
+  margin-left: 40px;
+}
+.ullist {
+  list-style-image: url(https://coschedule.com/img/home/orange-checkmark.svg);
+  padding-left: 50px;
+  margin: 20px 0 25px;
+  margin-left: 22px;
+  width: 340px;
+  line-height: 2;
+  margin-bottom: 38px;
 }
 ul li::marker {
-    margin-right: -20px;
+  margin-right: -20px;
+}
 
-  }
-  
-.checkbtn{
-    background-color: #ffede3;
-    color: #f37e5d;
-    transition: all .25s ease-in-out;
-    padding: 12px 30px;
-    min-width: auto;
-    font-size: 13px;
-    border-radius: 4px;
-        font-weight: 400;
-    line-height: 1.428571429;
-    text-align: center;
-    box-sizing: border-box;
-    margin-left: -255px;
-   
+.checkbtn {
+  background-color: #ffede3;
+  color: #f37e5d;
+  transition: all 0.25s ease-in-out;
+  padding: 12px 30px;
+  min-width: auto;
+  font-size: 13px;
+  border-radius: 4px;
+  font-weight: 400;
+  line-height: 1.428571429;
+  text-align: center;
+  box-sizing: border-box;
+  margin-left: -255px;
 }
-.checkbtn:hover{
-    background-color: #ffe1d1;
-    color: #f37e5d;
+.checkbtn:hover {
+  background-color: #ffe1d1;
+  color: #f37e5d;
 }
-.checkbtn2{
-    
-    background-color: #dfe8f9;
-    color: #618be0;
-    padding: 12px 30px;
-    min-width: auto;
-    font-size: 13px;
-    transition: all .25s ease-in-out;
-    border-radius: 4px;
-        font-weight: 400;
-    line-height: 1.428571429;
-    text-align: center;
-    box-sizing: border-box;
+.checkbtn2 {
+  background-color: #dfe8f9;
+  color: #618be0;
+  padding: 12px 30px;
+  min-width: auto;
+  font-size: 13px;
+  transition: all 0.25s ease-in-out;
+  border-radius: 4px;
+  font-weight: 400;
+  line-height: 1.428571429;
+  text-align: center;
+  box-sizing: border-box;
+  margin-left: -255px;
 }
-.checkbtn2:hover{
-    background-color: #c0d1f3;
-    color: #618be0;
+.checkbtn2:hover {
+  background-color: #c0d1f3;
+  color: #618be0;
 }
-.ullist2{
-   list-style-image: url(https://coschedule.com/img/home/blue-checkmark.svg );
-   padding-left: 30px;
-   margin: 20px 0 25px;
+.ullist2 {
+  list-style-image: url(https://coschedule.com/img/home/blue-checkmark.svg);
+  padding-left: 30px;
+  margin: 20px 0 25px;
+  margin-left: 22px;
+  line-height: 2;
+  margin-bottom: 38px;
+}
+.checkbtn3 {
+  background-color: #e6defa;
+  color: #835ce5;
+  padding: 12px 30px;
+  min-width: auto;
+  font-size: 13px;
+  transition: all 0.25s ease-in-out;
+  border-radius: 4px;
+  font-weight: 400;
+  line-height: 1.428571429;
+  text-align: center;
+  box-sizing: border-box;
+  margin-left: -255px;
+}
+.checkbtn3:hover {
+  background-color: #cdbef5;
+  color: #835ce5;
+}
+
+.ullist3 {
+  list-style-image: url(https://coschedule.com/img/home/purple-checkmark.svg);
+  padding-left: 30px;
+  margin: 20px 0 25px;
+  margin-left: 22px;
+  line-height: 2;
+  margin-bottom: 38px;
+}
+.heading4 {
+  font-size: 30px;
+  margin: 0;
+}
+.secondpara {
+  font-size: 18px;
+  margin: auto;
+}
+.gridcss {
+  text-align: center;
+  padding: 30px 0;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-column-gap: 30px;
+}
+
+.cosaccolade {
+  box-shadow: 2px 2px 20px 0 rgb(0 0 0 / 5%);
+  display: block;
+  border-radius: 4px;
+  padding: 30px 50px;
+  background: #fff;
+  transition: all 0.3s ease-in-out;
+  min-height: 250px;
+}
+.coshome {
+  background: #f37e5d;
+  background: linear-gradient(90deg, #f37e5d 0, #f9a97d);
+  padding: 70px 20px;
+  text-align: center;
+  margin-bottom: -45px;
+}
+.coshomehead {
+  margin-bottom: 10px;
+  font-size: 28px;
+  color: #fff;
+  text-align: center;
+  font-weight: 600;
+}
+.lastbtn {
+  display: inline-block;
+  min-width: 220px;
+  box-sizing: border-box;
+  padding: 15px 20px;
+  background-color: #fff;
+  background-image: none;
+  border-radius: 3px;
+  cursor: pointer;
+  font-family: MuseoSans-700, sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 1.428571429;
+  text-align: center;
+  text-decoration: none;
+  transition: all 0.2s ease-in-out;
+  color: #f37e5d !important;
+}
+.lastbtn:hover {
+  background-color: #fdece7;
 }

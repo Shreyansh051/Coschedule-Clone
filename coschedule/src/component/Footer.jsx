@@ -171,7 +171,7 @@ function Footer() {
           justify={{ md: 'space-between' }}
           align={{ md: 'center' }}
           opacity='0.4'>
-          <Text>© 2022 Chakra Templates. All rights reserved</Text>
+          <Text>©  All rights reserved</Text>
           <Stack direction={'row'} spacing={3}>
             <SocialButton label={'Twitter'} href={'#'}>
               <FaTwitter />
