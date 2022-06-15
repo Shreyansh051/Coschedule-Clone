@@ -195,7 +195,9 @@ body{
     font-weight: 400;
     font-style: normal;
     font-size: 22px;
-    margin: 0;
+    margin-top: 40px;
+    margin-left: 40px;
+    text-align: left;
 }
 .subpara{
     font-size: 15px;
@@ -204,15 +206,24 @@ body{
     line-height: 170%;
     box-sizing: border-box;
     font-family: MuseoSans-300,sans-serif;
-  
-
+    text-align: left;
+    margin-top: 6px;
+    margin-left: 40px;
 }
 .ullist{
     list-style-image: url(https://coschedule.com/img/home/orange-checkmark.svg);
-    padding-left: 30px;
+    padding-left: 50px;
     margin: 20px 0 25px;
-
+    margin-left: 22px;
+    width: 340px;
+    line-height: 2;
+    margin-bottom: 38px;
 }
+ul li::marker {
+    margin-right: -20px;
+
+  }
+  
 .checkbtn{
     background-color: #ffede3;
     color: #f37e5d;
@@ -220,4 +231,38 @@ body{
     padding: 12px 30px;
     min-width: auto;
     font-size: 13px;
+    border-radius: 4px;
+        font-weight: 400;
+    line-height: 1.428571429;
+    text-align: center;
+    box-sizing: border-box;
+    margin-left: -255px;
+   
+}
+.checkbtn:hover{
+    background-color: #ffe1d1;
+    color: #f37e5d;
+}
+.checkbtn2{
+    
+    background-color: #dfe8f9;
+    color: #618be0;
+    padding: 12px 30px;
+    min-width: auto;
+    font-size: 13px;
+    transition: all .25s ease-in-out;
+    border-radius: 4px;
+        font-weight: 400;
+    line-height: 1.428571429;
+    text-align: center;
+    box-sizing: border-box;
+}
+.checkbtn2:hover{
+    background-color: #c0d1f3;
+    color: #618be0;
+}
+.ullist2{
+   list-style-image: url(https://coschedule.com/img/home/blue-checkmark.svg );
+   padding-left: 30px;
+   margin: 20px 0 25px;
 }
