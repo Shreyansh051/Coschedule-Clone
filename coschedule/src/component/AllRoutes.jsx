@@ -6,6 +6,7 @@ import { Box } from '@chakra-ui/react';
 import Footer from './Footer';
 import Pricing from '../pages/Pricing';
 import Home from "../component/Home"
+import GetADemo from '../pages/GetADemo';
 const AllRoutes = () => {
   return (
     <div>
@@ -14,6 +15,7 @@ const AllRoutes = () => {
       <Routes>
         <Route path='/Calender' element={<Calender />} />
         <Route path='/Pricing' element={<Pricing />} />
+        <Route path="/getADemo" element={<GetADemo />} />
       </Routes>
       <Box></Box>
       <h2 style={{ marginTop: '50px' }}>

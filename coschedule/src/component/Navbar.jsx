@@ -85,7 +85,9 @@ export default function WithSubnavigation() {
             Sign In
           </Button>
           <Button as={'a'} fontSize={'15px'} fontWeight={400} variant={'link'}>
-            Get A ademo
+            <Link as= {ReachLink} to="/getADemo">
+               Get A demo
+            </Link>
           </Button>
           <Button
             display={{ base: 'none', md: 'inline-flex' }}
