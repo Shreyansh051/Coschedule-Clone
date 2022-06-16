@@ -349,3 +349,277 @@ ul li::marker {
 .lastbtn:hover {
   background-color: #fdece7;
 }
+
+@media screen and (min-width: 1024px) and (max-width: 1440px) {
+  .heading {
+    width:auto;
+  }
+  .heading2{
+    width:auto;
+  }
+  .heading3 {
+    width:auto;
+  }
+  .heading4{
+    width:auto;
+  }
+  .container{
+    width: auto;
+
+  }
+  .second_container {
+    width:auto;
+  }
+  .BigBox{
+    width:auto;
+  }
+  .gridcss{
+    width: auto;
+  }
+  .coshome{
+    width:auto;
+  }
+
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .heading {
+    width:auto;
+    height: auto;
+  }
+  .heading2{
+    width:auto;
+    height: auto;
+  }
+  .heading3 {
+    width:auto;
+    height: auto;
+   
+  }
+  .heading4{
+    width:auto;
+    height: auto;
+   
+  }
+  .container{
+    width: auto;
+    height:auto;
+   
+  }
+  .second_container {
+    width:auto;
+    height:auto;
+
+  }
+  .BigBox{
+    width:auto;
+    height: auto;
+  }
+  .gridcss{
+    width: auto;
+    height: auto;
+  }
+  .coshome{
+    width:auto;
+    height: auto;
+  }
+  .box{
+    width:auto;
+    height: auto;
+  }
+  .boxA{
+    width:auto;
+    height: auto;
+  }
+  .customerlogo {
+    width: auto;
+    height: auto;
+  }
+  .imgposter{
+    width: auto;
+    height: auto;
+  }
+  .smallBox{
+  width: auto;
+  height: auto;
+  }
+
+
+.ullist{
+  width: auto;
+  height: auto;
+
+}
+.ullist2{
+  width: auto;
+  height: auto;
+  text-overflow: hidden;
+  width: 300px;
+  margin-top:-5px;
+}
+.ullist3{
+  width: 300px;
+  text-overflow: hidden;
+  margin-top:-10px;
+
+
+}
+.svglogo{
+  margin-bottom: -30px;
+}
+.svglogo1{
+  margin-bottom: -30px;
+}
+.subheading{
+  width: auto;
+  height: auto;
+}
+.subpara{
+  width: auto;
+  height: auto;
+}
+.checkbtn{
+  width: auto;
+  height: auto;
+  margin-left: auto;
+}
+.checkbtn2{
+  width: auto;
+  height: auto;
+  margin-left: auto;
+}
+.checkbtn3{
+  width: auto;
+  height: auto;
+  margin-left: auto;
+}
+}
+@media screen and (min-width: 425px) and (max-width: 768px) {
+  .heading {
+    width:auto;
+    height: auto;
+  }
+  .heading2{
+    width:auto;
+    height: auto;
+  }
+  .heading3 {
+    width:auto;
+    height: auto;
+   
+  }
+  .heading4{
+    width:auto;
+    height: auto;
+   
+  }
+  .container{
+    width: auto;
+    height:auto;
+   
+  }
+  .second_container {
+    width:auto;
+    height:auto;
+
+  }
+  .BigBox{
+    width:auto;
+    height: auto;
+  }
+  .gridcss{
+    width: auto;
+    height: auto;
+  }
+  .coshome{
+    width:auto;
+    height: auto;
+  }
+  .box{
+    width:auto;
+    height: auto;
+  }
+  .boxA{
+    width:auto;
+    height: auto;
+  }
+  .customerlogo {
+    width: auto;
+    height: auto;
+  }
+  .imgposter{
+    width: auto;
+    height: auto;
+  }
+  .smallBox{
+  width: auto;
+  height: auto;
+  }
+
+
+.ullist{
+  width: auto;
+  height: auto;
+
+}
+.ullist2{
+  width: auto;
+  height: auto;
+  text-overflow: hidden;
+  width: 300px;
+  margin-top:-5px;
+}
+.ullist3{
+  width: 300px;
+  text-overflow: hidden;
+  margin-top:-10px;
+
+
+}
+.svglogo{
+  margin-bottom: -30px;
+}
+.svglogo1{
+  margin-bottom: -30px;
+}
+.subheading{
+  width: auto;
+  height: auto;
+}
+.subpara{
+  width: auto;
+  height: auto;
+}
+.checkbtn{
+  width: auto;
+  height: auto;
+  margin-left: auto;
+}
+.checkbtn2{
+  width: auto;
+  height: auto;
+  margin-left: auto;
+}
+.checkbtn3{
+  width: auto;
+  height: auto;
+  margin-left: auto;
+}
+}
+@media screen and (min-width: 375px) and (max-width:425px) {
+  .container{
+    background-color: rgb(129, 97, 97);
+  }
+}
+@media screen and (min-width: 320px) and (max-width:375px) {
+  .container{
+    background-color: rgb(0, 142, 33);
+  }
+}
+
+@media screen and (max-width:320px){
+  .container{
+    background-color: rgb(89, 0, 255);
+  }
+}
+
