@@ -71,3 +71,28 @@
 .underlined{
     text-decoration: underline;
 }
+
+
+@media (min-width: 320px) and (max-width: 480px) {
+    .upperDiv{
+        border: 1px solid red ;
+        width: 90%;
+        margin: auto;
+        font-family: "MuseoSans-300",sans-serif;
+        color: #474747;
+    }
+    .cosLogo{
+        width: 30%;
+        margin: auto;
+    }
+    .formDiv{
+        /* border: 1px solid red; */
+        width: 90%;
+        margin: auto;
+        padding:3rem 4rem;
+        margin-top:3rem;
+        border-radius: 8px;
+        box-shadow: 2px 2px 20px 0 rgb(0 0 0 / 10%);
+    }
+    
+} 

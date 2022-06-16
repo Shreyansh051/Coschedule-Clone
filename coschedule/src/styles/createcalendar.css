@@ -71,3 +71,21 @@
 .underlined{
     text-decoration: underline;
 }
+
+@media only screen and (max-width: 480px) and (min-width: 320px) {
+    .upperDiv{
+        width: 90%;
+        margin: auto;
+        font-family: "MuseoSans-300",sans-serif;
+        color: #474747;
+    }
+    .formDiv{
+        /* border: 1px solid red; */
+        width: 90%;
+        margin: auto;
+        padding:3rem 4rem;
+        margin-top:3rem;
+        border-radius: 8px;
+        box-shadow: 2px 2px 20px 0 rgb(0 0 0 / 10%);
+    }
+} 
