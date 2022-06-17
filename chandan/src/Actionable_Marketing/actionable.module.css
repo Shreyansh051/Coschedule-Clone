@@ -71,6 +71,9 @@
     margin: 30px 0;
     position: relative;
 }
+.develop_child_1_div_button:hover{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
 .develop_child_1_div_img{
     height: 200px;
     width: 150px;
@@ -209,6 +212,7 @@
 
 .become_container_main_div{
     height: 350px;
+    
 }
 .become_main{
     display:flex;
@@ -218,6 +222,7 @@
     background-color: #835ce5 ;
     justify-content: center;
     border-radius: 10px;
+    box-shadow: 2px 2px 50px 0 rgb(0 0 0 / 50%);
 }
 .become_main_div{
 
@@ -238,6 +243,9 @@
     text-align: center;
     position: relative;
     margin-left: 140px;
+}
+.become_child_button:hover{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 .become_main_div_img1{
     height: 150px;
@@ -294,32 +302,40 @@ color:#000
 
 
 .sedgwick_main_container{
-    /* margin-top: 70px;
-    height: 350px;
-    background-color:#4bbb8d ;
-    width: 80%;
-    margin-bottom: 70px; */
+    width: 65%;
+    margin-left: 12%;
     background-color:#4bbb8d ;
     margin-top: 100px;
     text-align: center;
-    box-shadow: 2px 2px 50px 0 rgb(0 0 0 / 20%);
+    box-shadow: 2px 2px 50px 0 rgb(0 0 0 / 50%);
     border-radius: 10px;
     padding: 90px 90px 70px;
     position: relative;
     
 
 }
-.sedgwick_main_container>img{
+.sedgwick_main_container_img{
     position: absolute;
     width: 65px;
     top: -35px;
     left: 47%;
+}
+.sedgwick_main_container_img1{
+    position: absolute;
+    width: 250px;
+    bottom: -60px;
+    left: 10%;
 }
 .sedgwick_main_container>h3{
    
     font-family: "MuseoSans-300",sans-serif;
     font-style: normal;
     font-size: 18px;
+    color:#fff;
+    font-weight: 400;
+    width:68%;
+    margin-left:15%;
+    line-height:30px;
 }
 .sedgwick_child_container{
     display: flex;
@@ -330,14 +346,271 @@ color:#000
 
 
 .sedgwick_child_container>p{
-
+    margin-left: 20px;
+    color: white;
+    font-weight: 600;
 }
 .sedgwick_container{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 30px;
 }
 .sedgwick_container>img{
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+}
 
+
+
+.logo_main_container{
+    margin-top: 200px;
+    height: 500px;
+
+}
+.logo_main_container>h2{
+     max-width: 50%;
+     margin: 0 auto 40px;
+     font-weight:550;
+    font-family: "MuseoSans-700",sans-serif;
+    font-size: 40px;
+    line-height: 130%;
+    letter-spacing: -0.3px;
+    text-transform: none;
+    text-align: center;
+    margin-bottom: -0px;
+}
+.logo_child_container{
+    display: grid;
+    grid-template-columns: repeat(4, 250px);
+    justify-content:center;
+
+}
+.media_images_item{
+
+}
+.media_images_item_img{
+margin-top:60px;
+ height: 40px;
+ width: 180px;
+}
+
+
+
+.cta_main_container{
+    
+     height: 530px;
+     border: 0.1px solid #835CE5;
+     max-width: 77%;
+     margin: 0 auto 40px;
+     background-color:#835CE5;
+     box-shadow: 2px 2px 50px 0 rgb(0 0 0 / 20%);
+     border-radius: 10px;
+     position: relative;
+
+}
+.cta_main_container_img1{
+    max-width: 175px;
+    margin-top: 300px;
+    margin-left:-90px ;
+    float: left;
+
+}
+.cta_main_container_img2{
+    max-width: 200px;
+    margin-top: 150px;
+    margin-right:-100px ;
+    float: right;
+}
+
+.cta_child_container{
+
+}
+.cta_child_container>h2{
+    font-weight: 550;
+    color:white;
+    font-family: "MuseoSans-700",sans-serif;
+    font-size: 40px;
+    line-height: 130%;
+    letter-spacing: -0.3px;
+    text-transform: none; 
+     max-width: 77%;
+     margin: 0 auto 40px;
+     text-align: center;
+     margin-top: 100px;
+     
+}
+.cta_child_container>h3{
+    max-width: 77%;
+    margin: 0 auto 40px;
+    color:white;
+    text-align: center;
+    font-family: "MuseoSans-300",sans-serif;
+    font-style: normal;
+    font-size: 18px;
+    font-weight: 400;
+}
+.cta_child_container>button{
+    background-color: #fff;
+    color: #000;
+    box-shadow: 2px 2px 10px 0 rgb(0 0 0 / 30%);
+    margin-left: 35%;
+    padding: 20px 40px;
+    min-width: 220px;
+    transition: all .2s ease-in-out;
+    font-weight: bold;
+    font-family: "MuseoSans-700",sans-serif;
+    font-size: 13px;
+    border: none;
+    border-radius: 5px;
+    display: inline-block;
+    text-align: center;
+    position: relative; 
+}
+.cta_child_container>p{
+    max-width: 77%;
+    margin: 0 auto 40px;
+    color:white;
+    text-align: center;
+    font-family: "MuseoSans-300",sans-serif;
+    font-style: normal;
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 30px;
+}
+
+
+
+
+
+
+
+
+
+.pricing_container{
+    margin-top:130px;
+}
+.pricing_heading_child {
+    max-width: 60%;
+    margin: 0 auto 40px;
+}
+.pricing_heading_child >h2{
+    font-size: 40px;
+    text-align: center;
+    font-weight: 400;
+    font-family: "MuseoSans-700",sans-serif;
+    line-height: 130%;
+    letter-spacing: -0.3px;
+    text-transform: none;
+
+}
+.pricing_heading_child >h3{
+    max-width: 650px;
+    margin: 0 auto;
+    font-family: "MuseoSans-300",sans-serif;
+    font-style: normal;
+    font-size: 18px;
+    text-align: center;
+    color: #5a768a ;
+    font-weight: 300;
+    letter-spacing: 1px;
+    line-height: 30px;
+}
+
+
+
+.pricing_two_col_container{
+    display: grid;
+    max-width: 60%;
+    margin: 0 auto 40px;
+    grid-template-columns: repeat(2,440px);
+    gap: 50px;
+
+}
+.pricing_col_item{
+
+}
+.pricing_col_item > img{
+    width: 100%;
+    height: 300px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.pricing_col_text{
+    margin-top: -25px;
+    background-color: #fff;
+    box-shadow: 2px 2px 50px 0 rgb(0 0 0 / 20%);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    position: relative;
+    height: 450px;
+}
+
+.best_deal_h2{
+    max-width: 80%;
+    margin: 0 auto 40px;
+    font-size: 26px;
+    padding-top: 40px;
+}
+
+.access_col_item>p{
+    max-width: 80%;
+    margin: 0 auto 40px;
+    font-size: 16px;
+    letter-spacing:1px;
+    margin-top: -20px;
+}
+.access_col_item>h4{
+    max-width: 80%;
+    margin: 0 auto 40px;
+    font-size: 19px;
+    letter-spacing:1px;
+    margin-top: -35px;
+}
+
+
+.features_col_item> ul > li{
+    list-style-type: none;
+    background: url("https://coschedule.com/blog/wp-content/themes/CoS4/img/academy/check-mark.svg") left top no-repeat;
+    background-size: 19px;
+    padding-left: 30px;
+    font-size: 14px;
+    margin: 5px 0;
+}
+
+.last_div_button2{
+    padding: 20px;
+    width: 100%;
+    max-width: 80%;
+    font-weight: normal;
+    font-family: "MuseoSans-700",sans-serif;
+    font-size: 14px;
+    color:white;
+    border: none;
+    border-radius: 5px;
+    display: inline-block;
+    text-align: center;
+    transition: all .2s ease-in-out;
+    position: relative;
+    margin-left:42px;
+    background-color: #4BBB8D;
+    margin-top: 28px;
+}
+.last_div_button1{
+    padding: 20px;
+    width: 100%;
+    max-width: 80%;
+    font-weight: bold;
+    font-family: "MuseoSans-700",sans-serif;
+    font-size: 14px;
+    color:#4BBB8D;
+    border: 2px solid #4BBB8D;
+    border-radius: 5px;
+    display: inline-block;
+    text-align: center;
+    background-color: white;
+    position: relative;
+    margin-left:42px;
+    margin-top: 50px;
 }

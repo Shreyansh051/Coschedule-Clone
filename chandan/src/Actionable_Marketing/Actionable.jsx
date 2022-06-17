@@ -169,7 +169,7 @@ const Actionable = () => {
 {/* style="background-color:#4BBB8D" */}
 
 <div className={styles.sedgwick_main_container}>
-    <img src="https://coschedule.com/blog/wp-content/themes/CoS4/img/academy/quotes.svg" alt="" />
+    <img className={styles.sedgwick_main_container_img} src="https://coschedule.com/blog/wp-content/themes/CoS4/img/academy/quotes.svg" alt="" />
     <h3>I like having access to so many courses in one place. They’re all short enough that they don’t feel like a huge commitment to start. But they focus on information I actually need to put these strategies into practice.</h3>
     <div className={styles.sedgwick_child_container}>
         <div className={styles.sedgwick_container}>
@@ -177,9 +177,137 @@ const Actionable = () => {
         </div>
         <p>Icy Sedgwick</p>
     </div>
-    <img src="https://coschedule.com/blog/wp-content/themes/CoS4/img/academy/black-dots.svg" alt="" />
+    <img className={styles.sedgwick_main_container_img1} src="https://coschedule.com/blog/wp-content/themes/CoS4/img/academy/black-dots.svg" alt="" />
 </div>
 
+
+
+
+
+<div className={styles.logo_main_container}>
+    <h2 class="center">CoSchedule’s marketing education resources featured in...</h2>
+    <div className={styles.logo_child_container}>
+        <div className="styles.media_images_item">
+            <img className={styles.media_images_item_img} src="https://media.coschedule.com/uploads/2020/09/entrepreneur-logo.png" alt="" />
+        </div>
+        <div className="styles.media_images_item">
+            <img className={styles.media_images_item_img} src="https://media.coschedule.com/uploads/2020/09/forbes-logo.png" alt="" />
+        </div>
+        <div className="styles.media_images_item">
+            <img className={styles.media_images_item_img} src="https://media.coschedule.com/uploads/2020/09/inc-logo.png" alt="" />
+        </div>
+        <div className="styles.media_images_item">
+            <img className={styles.media_images_item_img} src="https://media.coschedule.com/uploads/2020/09/techweek-logo-small.png" alt="" />
+        </div>
+        <div className="styles.media_images_item">
+            <img className={styles.media_images_item_img} src="https://media.coschedule.com/uploads/2020/09/convince-convert-logo.png" alt="" />
+        </div>
+        <div className="styles.media_images_item">
+            <img className={styles.media_images_item_img} src="https://media.coschedule.com/uploads/2020/09/mp-logo-01.png" alt="" />
+        </div>
+        <div className="styles.media_images_item">
+            <img className={styles.media_images_item_img} src="https://media.coschedule.com/uploads/2020/09/usa-today-logo-02.png" alt="" />
+        </div>
+        <div className="styles.media_images_item">
+            <img className={styles.media_images_item_img} src="https://media.coschedule.com/uploads/2020/09/sej-logo-01.png" alt="" />
+        </div>
+        <div className="styles.media_images_item">
+            <img className={styles.media_images_item_img} src="https://media.coschedule.com/uploads/2020/09/adweek-logo-svg-white-02.png" alt="" />
+        </div>
+        <div className="styles.media_images_item">
+            <img className={styles.media_images_item_img} src="https://media.coschedule.com/uploads/2020/09/moz-logo-02.png" alt="" />
+        </div>
+        <div className="styles.media_images_item">
+            <img className={styles.media_images_item_img} src="https://media.coschedule.com/uploads/2020/09/copyblogger-logo.png" alt="" />
+        </div>
+        <div className="styles.media_images_item">
+            <img className={styles.media_images_item_img} src="https://media.coschedule.com/uploads/2020/09/content-marketing-institute-logo.png" alt="" />
+        </div>
+    </div>
+</div>
+
+
+{/* style="background-color:#835CE5" */}
+
+<div className={styles.cta_main_container}>
+    <img className={styles.cta_main_container_img1} src="https://coschedule.com/blog/wp-content/themes/CoS4/img/academy/black-waves.svg" alt="" /> 
+    <img className={styles.cta_main_container_img2} src="https://coschedule.com/blog/wp-content/themes/CoS4/img/academy/black-swirl-half.svg" alt="" />
+
+    <div className={styles.cta_child_container}>
+        <h2>Unlock our most comprehensive, actionable content today with the Actionable Marketing Institute Pro.</h2>
+        <h3>Join the 30 million marketers who trust CoSchedule as a leader in marketing education.</h3>
+        <button > Enroll Now</button>
+        <p>Access training &amp; tools you can find only in the Actionable Marketing Institute.</p>
+    </div>
+</div>
+
+
+
+
+
+
+
+<div className={styles.pricing_container}>
+                <div className={styles.pricing_heading_child}>
+                    <h2 class="center">Ready to start learning? </h2>
+                    <h3 class="center">Purchase any course for $99. Or subscribe to the Actionable Marketing Institute Pro &amp; unlock our entire course catalog for only $150 more.</h3>
+                </div>
+
+                <div className={styles.pricing_two_col_container}>
+                    <div className={styles.pricing_col_item}>
+                        <img src="https://media.coschedule.com/uploads/2020/09/Template-Academy-Pro-Squeeze-Page_pricing-course.png" alt="" />
+                        <div className={styles.pricing_col_text}>
+                            <div class="main-col-item">
+                                <div class="plan-col-item">
+                                    <div class="title-col-item">
+                                        <h2 className={styles.best_deal_h2}>Any Actionable Marketing Institute Course</h2>
+                                    </div>
+                                    <div className={styles.access_col_item}>
+                                        <p>Lifetime access</p>
+                                        <h4 class="small no-marg">$99/course</h4>
+                                    </div>
+                                </div>
+                                <div className={styles.features_col_item}>
+                                    <ul>
+                                        <li>Single Course</li>
+                                        <li>Video Tutorials</li>
+                                        <li>Premium Templates &amp; Downloads</li>
+                                    </ul>
+                                </div>
+                            </div>
+                           <button className={styles.last_div_button1}>Find A Course</button>
+                        </div> 
+                    </div> 
+
+                    <div className={styles.pricing_col_item}>
+                        <div className={styles.best_deal_callout}> 
+                        </div>
+                        <img src="https://media.coschedule.com/uploads/2020/09/Template-Academy-Pro-Squeeze-Page_pricing-pro.png" alt="" />
+                        <div className={styles.pricing_col_text}>
+                            <div class="main-col-item">
+                                <div class="plan-col-item">
+                                    <div class="title-col-item">
+                                        <h2 className={styles.best_deal_h2}>Actionable Marketing Institute Pro</h2>
+                                    </div>
+                                    <div className={styles.access_col_item}>
+                                        <p>Annual subscription</p>
+                                        <h4 class="small no-marg">$249/year ($2,475+ Value)</h4>
+                                    </div>
+                                </div>
+                                <div className={styles.features_col_item}>
+                                    <ul>
+                                        <li>Entire AMI Course Catalog</li>
+                                        <li>Video Tutorials</li>
+                                        <li>Templates &amp; Premium Downloads</li>
+                                        <li>Brand New Course Added Every Month</li>
+                                    </ul>
+                                </div>
+                            </div>
+                             <button className={styles.last_div_button2}>Go Pro To Unlock All 30+ Courses</button>                                
+                        </div> 
+                    </div> 
+                </div>
+            </div>
 
 
 
