@@ -1,4 +1,5 @@
 import { ReactNode } from 'react';
+import styles from "../Css/Footer.module.css"
 import {
   Box,
   Container,
@@ -75,13 +76,13 @@ function Footer() {
                 width={'50px'}
               />
             </Box>
-            <Box>
-              <button>Sign up </button>
+            <Box className={styles.heading}>
+              <button >Sign up </button>
             </Box>
-            <Box>
+            <Box className={styles.heading}>
               <button>Request A Demo </button>
             </Box>
-            <Box>
+            <Box className={styles.heading}>
               <button>Sign in </button>
             </Box>
             <Box>
@@ -105,7 +106,7 @@ function Footer() {
             </Box>
           </VStack>
 
-          <Stack align={'flex-start'}>
+          <Stack className={styles.heading} align={'flex-start'}>
             <ListHeader>Products</ListHeader>
             <Link href={'#'}>Marketing Calender</Link>
             <Link href={'#'}>Marketing Suite</Link>
@@ -122,7 +123,7 @@ function Footer() {
             <Link href={'#'}>Actionable Marketing Institute</Link>
           </Stack>
 
-          <Stack align={'flex-start'}>
+          <Stack className={styles.heading} align={'flex-start'}>
             <ListHeader>WHY COSCHEDULE</ListHeader>
             <Link href={'#'}>Customer Stories</Link>
             <Link href={'#'}>Support</Link>
@@ -138,8 +139,8 @@ function Footer() {
             <Link href={'#'}>Pricing</Link>
           </Stack>
 
-          <Stack align={'flex-start'}>
-            <ListHeader>COMPANY</ListHeader>
+          <Stack className={styles.heading} align={'flex-start'}>
+            <ListHeader >COMPANY</ListHeader>
             <Link href={'#'}>About</Link>
             <Link href={'#'}>Jobs</Link>
             <Link href={'#'}>Press</Link>

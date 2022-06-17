@@ -1,10 +1,10 @@
 body {
-  font-family: MuseoSans-300, sans-serif;
+  font-family: " MuseoSans";
+  font-family: " MuseoSans300";
 }
 .heading {
   color: #4b4b4b;
   font-size: 50px;
-  font-family: MuseoSans-700, sans-serif;
   font-weight: 600;
   letter-spacing: -0.3px;
   line-height: 130%;
@@ -12,15 +12,15 @@ body {
   width: 75%;
   margin: auto;
   margin-top: 20px;
+  font-family: " MuseoSans";
 }
 .para {
   font-size: 18px;
   line-height: 150%;
   margin: 5px 0 25px;
-  font-family: MuseoSans-300, sans-serif;
   color: #4b4b4b;
   text-align: center;
-  font-weight: 100;
+  font-family: " MuseoSans300";
 }
 .button {
   background-color: #f37e5d;
@@ -31,7 +31,7 @@ body {
   border-radius: 3px;
   border-radius: 3px;
   cursor: pointer;
-  font-family: MuseoSans-700, sans-serif;
+  font-family: " MuseoSans";
   font-size: 15px;
   font-weight: 400;
   line-height: 1.428571429;
@@ -57,11 +57,12 @@ body {
   line-height: 150%;
   color: #4b4b4b;
   font-size: 14px;
+  font-family: " MuseoSans300";
 }
 .heading2 {
   color: #4b4b4b;
   font-size: 30px;
-  font-family: MuseoSans-700, sans-serif;
+  font-family: " MuseoSans";
   font-weight: 600;
   letter-spacing: -0.3px;
   line-height: 130%;
@@ -104,7 +105,6 @@ body {
 .heading3 {
   color: #4b4b4b;
   font-size: 30px;
-  font-family: MuseoSans-700, sans-serif;
   font-weight: 600;
   letter-spacing: -0.3px;
   line-height: 130%;
@@ -112,6 +112,7 @@ body {
   width: 75%;
   margin: auto;
   margin-top: 10px;
+  font-family: " MuseoSans";
 }
 .boxA {
   margin-bottom: 40px;
@@ -186,13 +187,15 @@ body {
   fill: #8256e7;
 }
 .subheading {
-  font-family: MuseoSans-700, sans-serif;
+  font-family: " MuseoSans";
   font-weight: 400;
   font-style: normal;
   font-size: 22px;
   margin-top: 40px;
   margin-left: 40px;
   text-align: left;
+  color: #4b4b4b;
+  font-family: " MuseoSans";
 }
 .subpara {
   font-size: 15px;
@@ -200,7 +203,7 @@ body {
   color: #4b4b4b;
   line-height: 170%;
   box-sizing: border-box;
-  font-family: MuseoSans-300, sans-serif;
+  font-family: " MuseoSans300";
   text-align: left;
   margin-top: 6px;
   margin-left: 40px;
@@ -210,13 +213,13 @@ body {
   text-align: left;
   padding-left: 50px;
   margin: 20px 0 25px;
-  width: 340px;
+  width: 360px;
+  color: #4b4b4b;
   line-height: 2;
   margin-bottom: 38px;
   list-style-position: inside;
-
+  font-family: " MuseoSans300";
 }
-
 
 .checkbtn {
   background-color: #ffede3;
@@ -231,6 +234,7 @@ body {
   text-align: center;
   box-sizing: border-box;
   margin-left: -255px;
+  font-family: " MuseoSans";
 }
 .checkbtn:hover {
   background-color: #ffe1d1;
@@ -249,6 +253,7 @@ body {
   text-align: center;
   box-sizing: border-box;
   margin-left: -255px;
+  font-family: " MuseoSans";
 }
 .checkbtn2:hover {
   background-color: #c0d1f3;
@@ -262,8 +267,9 @@ body {
   margin-bottom: 38px;
   list-style-position: inside;
   text-align: left;
-  margin-left:20px;
-  
+  color: #4b4b4b;
+  margin-left: 20px;
+  font-family: " MuseoSans300";
 }
 .checkbtn3 {
   background-color: #e6defa;
@@ -278,10 +284,12 @@ body {
   text-align: center;
   box-sizing: border-box;
   margin-left: -255px;
+  font-family: " MuseoSans";
 }
 .checkbtn3:hover {
   background-color: #cdbef5;
   color: #835ce5;
+  font-family: " MuseoSans";
 }
 
 .ullist3 {
@@ -290,17 +298,22 @@ body {
   margin: 20px 0 25px;
   line-height: 2;
   text-align: left;
-  margin-left:20px;
+  color: #4b4b4b;
+  margin-left: 20px;
   margin-bottom: 38px;
   list-style-position: inside;
+  font-family: " MuseoSans300";
 }
 .heading4 {
   font-size: 30px;
   margin: 0;
+  font-family: " MuseoSans";
+  color: #4b4b4b;
 }
 .secondpara {
   font-size: 18px;
   margin: auto;
+  font-family: " MuseoSans300";
 }
 .gridcss {
   text-align: center;
@@ -308,9 +321,10 @@ body {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-column-gap: 30px;
-  width:1140px;
-height: 349.78px;
-margin: auto;
+  width: 1140px;
+  height: 349.78px;
+  margin: auto;
+  font-family: " MuseoSans300";
 }
 
 .cosaccolade {
@@ -321,18 +335,23 @@ margin: auto;
   transition: all 0.3s ease-in-out;
   width: 360px;
   height: 289.78px;
- 
+  color: #4b4b4b;
+  font-family: " MuseoSans";
 }
 
-.cosaccolade:hover{box-shadow: 2px 2px 25px 0 rgb(0 0 0 / 15%);
+.cosaccolade:hover {
+  box-shadow: 2px 2px 25px 0 rgb(0 0 0 / 15%);
   cursor: pointer;
-  text-decoration: none;}
+  text-decoration: none;
+}
 .coshome {
   background: #f37e5d;
   background: linear-gradient(90deg, #f37e5d 0, #f9a97d);
   padding: 70px 20px;
   text-align: center;
   margin-bottom: -45px;
+  color: #4b4b4b;
+  font-family: " MuseoSans";
 }
 .coshomehead {
   margin-bottom: 10px;
@@ -340,6 +359,7 @@ margin: auto;
   color: #fff;
   text-align: center;
   font-weight: 600;
+  font-family: " MuseoSans";
 }
 .lastbtn {
   display: inline-block;
@@ -350,7 +370,6 @@ margin: auto;
   background-image: none;
   border-radius: 3px;
   cursor: pointer;
-  font-family: MuseoSans-700, sans-serif;
   font-size: 15px;
   font-weight: 400;
   line-height: 1.428571429;
@@ -358,6 +377,7 @@ margin: auto;
   text-decoration: none;
   transition: all 0.2s ease-in-out;
   color: #f37e5d !important;
+  font-family: " MuseoSans";
 }
 .lastbtn:hover {
   background-color: #fdece7;
@@ -365,302 +385,283 @@ margin: auto;
 
 @media screen and (min-width: 1024px) and (max-width: 1440px) {
   .heading {
-    width:auto;
+    width: auto;
   }
-  .heading2{
-    width:auto;
+  .heading2 {
+    width: auto;
   }
   .heading3 {
-    width:auto;
-  }
-  .heading4{
-    width:auto;
-  }
-  .container{
     width: auto;
-
+  }
+  .heading4 {
+    width: auto;
+  }
+  .container {
+    width: auto;
   }
   .second_container {
-    width:auto;
+    width: auto;
   }
-  .BigBox{
-    width:auto;
-  }
-  
-  .coshome{
-    width:auto;
+  .BigBox {
+    width: auto;
   }
 
+  .coshome {
+    width: auto;
+  }
 }
 
 @media screen and (min-width: 768px) and (max-width: 1024px) {
   .heading {
-    width:auto;
+    width: auto;
     height: auto;
   }
-  .heading2{
-    width:auto;
+  .heading2 {
+    width: auto;
     height: auto;
   }
   .heading3 {
-    width:auto;
-    height: auto;
-   
-  }
-  .heading4{
-    width:auto;
-    height: auto;
-   
-  }
-  .container{
     width: auto;
-    height:auto;
-   
+    height: auto;
+  }
+  .heading4 {
+    width: auto;
+    height: auto;
+  }
+  .container {
+    width: auto;
+    height: auto;
   }
   .second_container {
-    width:auto;
-    height:auto;
-
-  }
-  .BigBox{
-    width:auto;
-    height: auto;
-  }
-  .gridcss{
     width: auto;
     height: auto;
   }
-  .coshome{
-    width:auto;
+  .BigBox {
+    width: auto;
     height: auto;
   }
-  .box{
-    width:auto;
+  .gridcss {
+    width: auto;
     height: auto;
   }
-  .boxA{
-    width:auto;
+  .coshome {
+    width: auto;
+    height: auto;
+  }
+  .box {
+    width: auto;
+    height: auto;
+  }
+  .boxA {
+    width: auto;
     height: auto;
   }
   .customerlogo {
     width: auto;
     height: auto;
   }
-  .imgposter{
+  .imgposter {
     width: auto;
     height: auto;
   }
-  .smallBox{
-  width: auto;
-  height: auto;
+  .smallBox {
+    width: auto;
+    height: auto;
   }
 
-
-.ullist{
-  width: auto;
-  height: auto;
-
-}
-.ullist2{
-  width: auto;
-  height: auto;
-  text-overflow: hidden;
-  margin-top:-5px;
-}
-.ullist3{
-  text-overflow: hidden;
-  margin-top:-10px;
-
-
-}
-.svglogo{
-  margin-bottom: -30px;
-}
-.svglogo1{
-  margin-bottom: -30px;
-}
-.subheading{
-  width: auto;
-  height: auto;
-}
-.subpara{
-  width: auto;
-  height: auto;
-}
-.checkbtn{
-  width: auto;
-  height: auto;
-  margin-left: auto;
-}
-.checkbtn2{
-  width: auto;
-  height: auto;
-  margin-left: auto;
-}
-.checkbtn3{
-  width: auto;
-  height: auto;
-  margin-left: auto;
-}
+  .ullist {
+    width: auto;
+    height: auto;
+  }
+  .ullist2 {
+    width: auto;
+    height: auto;
+    text-overflow: hidden;
+    margin-top: -5px;
+  }
+  .ullist3 {
+    text-overflow: hidden;
+    margin-top: -10px;
+  }
+  .svglogo {
+    margin-bottom: -30px;
+  }
+  .svglogo1 {
+    margin-bottom: -30px;
+  }
+  .subheading {
+    width: auto;
+    height: auto;
+  }
+  .subpara {
+    width: auto;
+    height: auto;
+  }
+  .checkbtn {
+    width: auto;
+    height: auto;
+    margin-left: auto;
+  }
+  .checkbtn2 {
+    width: auto;
+    height: auto;
+    margin-left: auto;
+  }
+  .checkbtn3 {
+    width: auto;
+    height: auto;
+    margin-left: auto;
+  }
 }
 @media screen and (min-width: 425px) and (max-width: 768px) {
   .heading {
-    width:auto;
+    width: auto;
     height: auto;
   }
-  .heading2{
-    width:auto;
+  .heading2 {
+    width: auto;
     height: auto;
   }
   .heading3 {
-    width:auto;
-    height: auto;
-   
-  }
-  .heading4{
-    width:auto;
-    height: auto;
-   
-  }
-  .container{
     width: auto;
-    height:auto;
-   
+    height: auto;
+  }
+  .heading4 {
+    width: auto;
+    height: auto;
+  }
+  .container {
+    width: auto;
+    height: auto;
   }
   .second_container {
-    width:auto;
-    height:auto;
-
-  }
-  .BigBox{
-    width:auto;
-    height: auto;
-  }
-  .gridcss{
     width: auto;
     height: auto;
   }
-  .coshome{
-    width:auto;
+  .BigBox {
+    width: auto;
     height: auto;
   }
-  .box{
-    width:auto;
+  .gridcss {
+    width: auto;
     height: auto;
   }
-  .boxA{
-    width:auto;
+  .coshome {
+    width: auto;
+    height: auto;
+  }
+  .box {
+    width: auto;
+    height: auto;
+  }
+  .boxA {
+    width: auto;
     height: auto;
   }
   .customerlogo {
     width: auto;
     height: auto;
   }
-  .imgposter{
+  .imgposter {
     width: auto;
     height: auto;
   }
-  .smallBox{
-  width: auto;
-  height: auto;
+  .smallBox {
+    width: auto;
+    height: auto;
   }
 
-
-.ullist{
-  width: auto;
-  height: auto;
-
+  .ullist {
+    width: auto;
+    height: auto;
+  }
+  .ullist2 {
+    width: auto;
+    height: auto;
+    text-overflow: hidden;
+    width: 300px;
+    margin-top: -5px;
+  }
+  .ullist3 {
+    width: 300px;
+    text-overflow: hidden;
+    margin-top: -10px;
+  }
+  .svglogo {
+    margin-bottom: -30px;
+  }
+  .svglogo1 {
+    margin-bottom: -30px;
+  }
+  .subheading {
+    width: auto;
+    height: auto;
+  }
+  .subpara {
+    width: auto;
+    height: auto;
+  }
+  .checkbtn {
+    width: auto;
+    height: auto;
+    margin-left: auto;
+  }
+  .checkbtn2 {
+    width: auto;
+    height: auto;
+    margin-left: auto;
+  }
+  .checkbtn3 {
+    width: auto;
+    height: auto;
+    margin-left: auto;
+  }
 }
-.ullist2{
-  width: auto;
-  height: auto;
-  text-overflow: hidden;
-  width: 300px;
-  margin-top:-5px;
-}
-.ullist3{
-  width: 300px;
-  text-overflow: hidden;
-  margin-top:-10px;
-
-
-}
-.svglogo{
-  margin-bottom: -30px;
-}
-.svglogo1{
-  margin-bottom: -30px;
-}
-.subheading{
-  width: auto;
-  height: auto;
-}
-.subpara{
-  width: auto;
-  height: auto;
-}
-.checkbtn{
-  width: auto;
-  height: auto;
-  margin-left: auto;
-}
-.checkbtn2{
-  width: auto;
-  height: auto;
-  margin-left: auto;
-}
-.checkbtn3{
-  width: auto;
-  height: auto;
-  margin-left: auto;
-}
-}
-@media screen and (min-width: 375px) and (max-width:425px) {
-  .container{
+@media screen and (min-width: 375px) and (max-width: 425px) {
+  .container {
     background-color: rgb(129, 97, 97);
   }
 }
-@media screen and (min-width: 320px) and (max-width:375px) {
-  .container{
+@media screen and (min-width: 320px) and (max-width: 375px) {
+  .container {
     background-color: rgb(0, 142, 33);
   }
 }
 
-@media screen and (max-width:320px){
-  .container{
+@media screen and (max-width: 320px) {
+  .container {
     background-color: rgb(89, 0, 255);
   }
 }
 
-.lastimg{
-  height :85px;
+.lastimg {
+  height: 85px;
   width: 147px;
   display: block;
-    margin: 20px auto;
-    margin-top: 38px;
+  margin: 20px auto;
+  margin-top: 38px;
 }
-.lastimg2{
-  height:84px;
-  width:110px;
+.lastimg2 {
+  height: 84px;
+  width: 110px;
   display: block;
-    margin: 20px auto;
-    margin-top: 26px;
-
+  margin: 20px auto;
+  margin-top: 26px;
 }
-.lastpara{
-  font-family: MuseoSans-300,sans-serif;
-    color: #4b4b4b;
-    font-size: 18px;
-    line-height: 170%;
-    margin: 0 0 10px;
-    box-sizing: border-box;
+.lastpara {
+  font-family: " MuseoSans300";
+  color: #4b4b4b;
+  font-size: 16px;
+  line-height: 170%;
+  margin: 0 0 10px;
+  box-sizing: border-box;
 }
-.gartnertext{
+.gartnertext {
   margin: 18px 0;
 }
-.gartnertext>hr{
+.gartnertext > hr {
   width: 70px;
-    border: 0;
-    border-top: 3px solid #e9e9e9;
-    margin: 15px auto;
+  border: 0;
+  border-top: 3px solid #e9e9e9;
+  margin: 15px auto;
 }

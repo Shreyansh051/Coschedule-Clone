@@ -1,4 +1,4 @@
-import "../Css/Navbar.css"
+import styles from "../Css/Navbar..module.css"
 import {
   Box,
   Flex,
@@ -40,7 +40,8 @@ export default function WithSubnavigation() {
         borderBottom={1}
         borderStyle={'solid'}
         borderColor={useColorModeValue('gray.200', 'gray.900')}
-        align={'center'}>
+        align={'center'}
+        className={styles.heading}>
         <img
           src='https://coschedule.com/img/cos-logo-full-color.svg'
           alt=''

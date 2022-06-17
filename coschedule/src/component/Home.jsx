@@ -321,8 +321,8 @@ const Home = () => {
         </a>
 
         <a className={styles.cosaccolade} href="/home">
-          <div className={styles.lastimg} >
-            <img 
+          <div className={styles.lastimg}>
+            <img
               src="https://coschedule.com/_next/image?url=%2Fimg%2Ftestimonials%2Finc-5000-logo.png&w=384&q=75"
               alt="s"
             />
@@ -333,13 +333,15 @@ const Home = () => {
           </p>
         </a>
         <a className={styles.cosaccolade} href="/home">
-          <div className={styles.lastimg2} >
-            <img 
+          <div className={styles.lastimg2}>
+            <img
               src="https://coschedule.com/_next/image?url=%2Fimg%2Ftestimonials%2Fg2crowd-badge.png&w=96&q=75"
               alt="ss"
             />
           </div>
-          <p className={styles.lastpara} style={{marginTop:"40px"}}>Awarded High Performer in 7 Product&nbsp;Categories</p>
+          <p className={styles.lastpara} style={{ marginTop: "40px" }}>
+            Awarded High Performer in 7 Product&nbsp;Categories
+          </p>
         </a>
       </div>
       <div className={styles.coshome}>
