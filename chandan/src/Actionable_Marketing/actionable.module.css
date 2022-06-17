@@ -72,7 +72,8 @@
     position: relative;
 }
 .develop_child_1_div_button:hover{
-    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    transform: scale(1.05);
+    cursor: pointer;
 }
 .develop_child_1_div_img{
     height: 200px;
@@ -243,7 +244,8 @@
     margin-left: 140px;
 }
 .become_child_button:hover{
-    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    transform: scale(1.05);
+    cursor: pointer;
 }
 .become_main_div_img1{
     height: 150px;
@@ -459,6 +461,10 @@ margin-top:60px;
     text-align: center;
     position: relative; 
 }
+.cta_child_container>button:hover{
+    transform: scale(1.05);
+    cursor: pointer;
+}
 .cta_child_container>p{
     max-width: 77%;
     margin: 0 auto 40px;
@@ -603,4 +609,14 @@ margin-top:60px;
     position: relative;
     margin-left:42px;
     margin-top: 50px;
+}
+.last_div_button1:hover{
+    transform: scale(1.05);
+    cursor: pointer;
+
+}
+.last_div_button2:hover{
+    transform: scale(1.05);
+    cursor: pointer;
+
 }
