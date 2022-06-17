@@ -224,9 +224,7 @@
     border-radius: 10px;
     box-shadow: 2px 2px 50px 0 rgb(0 0 0 / 50%);
 }
-.become_main_div{
 
-}
 .become_child_button{
     background-color: #fff;
     color: #000;
@@ -280,8 +278,7 @@
     justify-content:center;
     gap: 50px;
 }
-.features_item{
-}
+
 .features_item >img{
  height: 70px;
  width: 70px;
@@ -386,9 +383,7 @@ color:#000
     justify-content:center;
 
 }
-.media_images_item{
 
-}
 .media_images_item_img{
 margin-top:60px;
  height: 40px;
@@ -423,9 +418,6 @@ margin-top:60px;
     float: right;
 }
 
-.cta_child_container{
-
-}
 .cta_child_container>h2{
     font-weight: 550;
     color:white;
@@ -527,9 +519,7 @@ margin-top:60px;
     gap: 50px;
 
 }
-.pricing_col_item{
 
-}
 .pricing_col_item > img{
     width: 100%;
     height: 300px;
