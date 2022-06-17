@@ -106,7 +106,7 @@ const Home = () => {
         <div className={styles.boxA}>
           <h2 className={styles.heading3}>Our Products</h2>
         </div>
-        <div className={styles.box}>
+        <div className={`${styles.box} ${styles.grid2}`}>
           <div className={styles.inside}>
             <div className={styles.smallBox}>
               <span>
@@ -135,7 +135,7 @@ const Home = () => {
                 <li>Show what your marketing is doing</li>
               </ul>
               <a
-                className={styles.checkbtn}
+                className={` ${styles.checkbtn} ${styles.top} `}
                 href="/marketing-calendar"
                 title="Learn more about CoSchedule's Marketing Calendar"
               >
@@ -172,7 +172,7 @@ const Home = () => {
                 <li>Maximize resources to increase output</li>
               </ul>
               <a
-                className={styles.checkbtn}
+                className={`${styles.checkbtn}`}
                 href="/marketing-suite"
                 data-testid="button-link"
                 title="Learn more about CoSchedule's Marketing Suite"
@@ -184,7 +184,7 @@ const Home = () => {
         </div>
 
         {/* end flex 1 */}
-        <div className={styles.box}>
+        <div className={`${styles.box} ${styles.grid2}`}>
           <div className={styles.inside}>
             <div className={styles.smallBox}>
               <span>
@@ -302,16 +302,8 @@ const Home = () => {
           title="Read Press Release"
         >
           <div className={styles.gartnertext}>
-            <h2 style={{ fontSize: "50px", color: "#4b4b4b" }}>Gartner</h2>
-            <h4
-              style={{
-                fontSize: "24px",
-                lineHeight: " 100%",
-                color: "#4b4b4b",
-              }}
-            >
-              Magic Quadrant
-            </h4>
+            <h2 className={styles.h2}>Gartner</h2>
+            <h4 className={styles.h4}>Magic Quadrant</h4>
             <hr />
           </div>
           <p className={styles.lastpara}>
@@ -323,6 +315,7 @@ const Home = () => {
         <a className={styles.cosaccolade} href="/home">
           <div className={styles.lastimg}>
             <img
+              className={styles.tab}
               src="https://coschedule.com/_next/image?url=%2Fimg%2Ftestimonials%2Finc-5000-logo.png&w=384&q=75"
               alt="s"
             />
