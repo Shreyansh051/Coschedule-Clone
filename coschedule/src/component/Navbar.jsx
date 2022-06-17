@@ -157,7 +157,7 @@ const DesktopNav = () => {
       <Box>
         <button>
           <Link as={ReachLink} to='/Pricing'>
-            Price
+            Pricing
           </Link>
         </button>
       </Box>
