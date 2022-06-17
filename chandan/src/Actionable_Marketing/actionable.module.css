@@ -2,13 +2,32 @@
 .develop_main_div{
     width: 100%;
     /* border: 1px solid red; */
-    height: 500px;;
+    height: 550px;;
     background-color: #835ce5 ;
     display: flex;
-    justify-content: space-between;
-    
-    
+    justify-content: space-between;   
    
+}
+
+.develop_main_div::before {
+    content: "";
+    width: 25%;
+    height: 150px;
+    position: absolute;
+    bottom: 74px;
+    left: 0;
+    background:  #835ce5 ;
+    transform: skewY(16deg);
+}
+.develop_main_div::after {
+    content: "";
+    width: 75%;
+    height: 146px;
+    position: absolute;
+    bottom: 60px;
+    right: 0;
+    background:  #835ce5;
+    transform: skewY(-4deg);
 }
 .develop_main_second_div{
     /* border: 1px solid yellow; */
@@ -20,7 +39,7 @@
 }
 .develop_child_1_div{
     /* border: 1px solid red; */
-    margin-top: 40px;
+    margin-top: 15px;
     width: 60%;
 }
 .develop_child_1_div_h1{
@@ -70,7 +89,7 @@
 .develop_child_2_div{
     /* border: 1px solid green; */
     width: 42%;
-    margin-top: -30px;
+    margin-top: -56px;
 }
 .develop_child_2_div_img1{
     height: 200px;
@@ -91,7 +110,7 @@
 
 .industry_main_div{
     height:300px;
-    margin-top: 80px;
+    margin-top: 200px;
     font-weight: 500;
    
 }
@@ -240,4 +259,85 @@
     font-size: 40px;
     color: white;
     margin-top: 70px;
+}
+
+
+
+        /* here i given features div css */
+
+.features_container{
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(2 , 420px);
+    justify-content:center;
+    gap: 50px;
+}
+.features_item{
+}
+.features_item >img{
+ height: 70px;
+ width: 70px;
+}
+.features_item >h2{
+  font-size: 20px;
+font-weight: 550;
+color:#000
+}
+.features_item >p{
+    font-size: 17px;
+    color:#281204;
+    line-height: 26px;
+}
+
+
+
+
+
+.sedgwick_main_container{
+    /* margin-top: 70px;
+    height: 350px;
+    background-color:#4bbb8d ;
+    width: 80%;
+    margin-bottom: 70px; */
+    background-color:#4bbb8d ;
+    margin-top: 100px;
+    text-align: center;
+    box-shadow: 2px 2px 50px 0 rgb(0 0 0 / 20%);
+    border-radius: 10px;
+    padding: 90px 90px 70px;
+    position: relative;
+    
+
+}
+.sedgwick_main_container>img{
+    position: absolute;
+    width: 65px;
+    top: -35px;
+    left: 47%;
+}
+.sedgwick_main_container>h3{
+   
+    font-family: "MuseoSans-300",sans-serif;
+    font-style: normal;
+    font-size: 18px;
+}
+.sedgwick_child_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+
+.sedgwick_child_container>p{
+
+}
+.sedgwick_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+.sedgwick_container>img{
+
 }

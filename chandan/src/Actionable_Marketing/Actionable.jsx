@@ -4,6 +4,7 @@ import styles from './actionable.module.css'
 const Actionable = () => {
   return (
    <>
+    
    <div className={styles.develop_main_div}>
    <div className={styles.develop_main_second_div}>
    <div className={styles.develop_child_1_div}>
@@ -32,6 +33,7 @@ const Actionable = () => {
                 </p>
             </div>
     </div>
+  
     <div className={styles.develop_child_2_div}>
             <div className="">
                 <img className={styles.develop_child_2_div_img1} src="https://coschedule.com/blog/wp-content/themes/CoS4/img/academy/white-dots.svg" alt="" />
@@ -64,8 +66,7 @@ const Actionable = () => {
         </div> 
     </div>
 
-
-
+  
 
    <div className={styles.improve_main_container_div}>
 
@@ -134,380 +135,52 @@ const Actionable = () => {
 
 
 
-
-
-<div className={styles.featured_courses_main_container_div} >
-    <div className={styles.featured_courses_child_div}>
-            <h2 className={styles.featured_courses_child_div_h2}>Featured Courses</h2>
-            <p>Actionable Marketing Institute Pro students complete 1,000s of courses every month. Check out our most popular courses.</p>
-        <div className={styles.featured_courses_child_button_div}>
-            <button className={styles.featured_courses_child_button1}>Marketing Strategy</button>
-            <button className={styles.featured_courses_child_button2}>Content Marketing</button>
-            <button className={styles.featured_courses_child_button3}>Project Management</button>
-            <button className={styles.featured_courses_child_button4}>Social Media Marketing</button>
-        </div> 
+<div className={styles.features_container}>
+    <div className={styles.features_item}>
+        <img src="https://media.coschedule.com/uploads/2020/09/Academy-Pro-Squeeze-Page_feature-1.png" alt="" />
+        <h2 >Take any course, any time.</h2>
+        <p>Subscribe to the Actionable Marketing Institute Pro to get instant access to every single course in the Actionable Marketing Institute. Every category. Every level. On-demand.</p>
     </div> 
-
-    <div class="course-carousel-wrapper">
-        <div class="flex-grid-wrapper">
-            <div class="carousel-window">
-              <div className={styles.carousel_window_div}>
-                    <div >
-                            <div class="course-card">
-                                <img src="https://media.coschedule.com/uploads/2020/09/2020-Academy-Course-Cards_Marketing-Idea.png" alt="" />
-                                    <div class="course-card-info">
-                                        <div class="course-description">
-                                                            
-                                            <h4 class="no-marg-t">Marketing Ideas</h4>
-                                            <p>Learn how to consistently come up with new marketing ideas that generate results. Stop wasting your time on work that doesn’t matter.</p>
-                                        </div>
-                                        <div class="course-card-details">
-                                            <p class="acad-icon lesson-icon">5 Lessons</p>
-                                            <p class="acad-icon clock-icon">45-60 Minutes</p>
-                                        </div>
-                                    </div> 
-                            </div> 
-                </div>
-                <div >
-                        <div class="course-card">
-                            <img src="https://media.coschedule.com/uploads/2020/09/2020-Academy-Course-Cards_Marketing-Strategy.png" alt="" />
-                                <div class="course-card-info">
-                                    <div class="course-description">
-                                        <img src="https://coschedule.com/blog/wp-content/themes/CoS4/img/academy/acad-certification-color.svg" alt="" />                      
-                                        <h4 class="no-marg-t">Marketing Strategy</h4>
-                                        <p>Become a better marketer &amp; level up your results. Become Marketing Strategy Certified today.</p>
-                                        <p class="acad-certification">Certification</p>                                                                                                                   </div>
-                                        <div class="course-card-details">
-                                            <p class="acad-icon lesson-icon">5 Lessons</p>
-                                            <p class="acad-icon clock-icon">5-7 Hours</p>
-                                        </div>
-                                </div> 
-                        </div> 
-                </div>
-                <div >
-                        <div class="course-card">
-                            <img src="https://media.coschedule.com/uploads/2020/09/2020-Academy-Course-Cards_Social-Media-Strategy.png" alt="" />
-                                <div class="course-card-info">
-                                    <div class="course-description">
-                                        <img src="https://coschedule.com/blog/wp-content/themes/CoS4/img/academy/acad-certification-color.svg" alt="" />                  
-                                        <h4 class="no-marg-t">Social Media Strategy</h4>
-                                        <p>Plan your entire social strategy in just two weeks and become Social Media Certified.</p>
-                                        <p class="acad-certification">Certification</p>
-                                    </div>
-                                    <div class="course-card-details">
-                                        <p class="acad-icon lesson-icon">6 Lessons</p>
-                                        <p class="acad-icon clock-icon">2-3 Hours</p>
-                                    </div>
-                                </div> 
-                        </div> 
-                </div>
-                <div >
-                        <div class="course-card">
-                            <img src="https://media.coschedule.com/uploads/2020/09/2020-Academy-Course-Cards_10x-Marketing-Formula.png" alt="" />
-                            <div class="course-card-info">
-                                <div class="course-description">
-                                                            
-                                    <h4 class="no-marg-t">10x Marketing Formula</h4>
-                                    <p>Learn how to apply core frameworks from the 10x Marketing Formula.</p>
-                                </div>
-                                <div class="course-card-details">
-                                    <p class="acad-icon lesson-icon">5 Lessons</p>
-                                    <p class="acad-icon clock-icon">30-45 Minutes</p>
-                                </div>
-                            </div> 
-                        </div> 
-                </div>
-                <div >
-                        <div class="course-card">
-                            <img src="https://media.coschedule.com/uploads/2020/09/2020-Academy-Course-Cards_Marketing-Plan.png" alt="" />
-                                <div class="course-card-info">
-                                    <div class="course-description">
-                                                            
-                                        <h4 class="no-marg-t">Marketing Plan</h4>
-                                        <p>Create your most successful marketing plan ever. Develop a roadmap for your marketing that generates 5x more results.</p>
-                                    </div>
-                                    <div class="course-card-details">
-                                        <p class="acad-icon lesson-icon">6 Lessons</p>
-                                        <p class="acad-icon clock-icon">45-60 Minutes</p>
-                                    </div>
-                                </div> 
-                        </div> 
-                </div>
-                <div >
-                        <div class="course-card">
-                            <img src="https://media.coschedule.com/uploads/2020/09/2020-Academy-Course-Cards_Blog-Growth.png" alt="" />
-                                <div class="course-card-info">
-                                    <div class="course-description">
-                                                            
-                                        <h4 class="no-marg-t">Blog Growth</h4>
-                                        <p>Grow your blog traffic in 5 simple, proven steps. Design a successful blog strategy that drives qualified leads.</p>
-                                    </div>
-                                    <div class="course-card-details">
-                                        <p class="acad-icon lesson-icon">5 Lessons</p>
-                                        <p class="acad-icon clock-icon">45-60 Minutes</p>
-                                    </div>
-                                </div> 
-                        </div> 
-                </div>
-                <div >
-                        <div class="course-card">
-                            <img src="https://media.coschedule.com/uploads/2020/09/2020-Academy-Course-Cards_Social-Media-Engagement.png" alt="" />
-                                <div class="course-card-info">
-                                    <div class="course-description">
-                                                            
-                                        <h4 class="no-marg-t">Social Media Engagement</h4>
-                                        <p>Create social messages your audience &amp; algorithms will love. Boost engagement with 10 proven, time-tested social media tactics.</p>
-                                    </div>
-                                    <div class="course-card-details">
-                                        <p class="acad-icon lesson-icon">10 Lessons</p>
-                                        <p class="acad-icon clock-icon">45-60 Minutes</p>
-                                    </div>
-                                </div> 
-                        </div> 
-                </div>
-                <div >
-                        <div class="course-card">
-                            <img src="https://media.coschedule.com/uploads/2020/09/2020-Academy-Course-Cards_Multi-team-projects.png" alt="" />
-                                <div class="course-card-info">
-                                    <div class="course-description">
-                                                            
-                                        <h4 class="no-marg-t">Multi-Team Projects</h4>
-                                        <p>Learn how to manage large-scale, cross-department marketing projects more efficiently with these five simple steps.</p>
-                                    </div>
-                                    <div class="course-card-details">
-                                        <p class="acad-icon lesson-icon">5 Lessons</p>
-                                        <p class="acad-icon clock-icon">60-90 Minutes</p>
-                                    </div>
-                                </div> 
-                        </div> 
-                </div>
-                <div >
-                        <div class="course-card">
-                            <img src="https://media.coschedule.com/uploads/2020/09/2020-Academy-Course-Cards_Triage-Projects.png" alt="" />
-                                <div class="course-card-info">
-                                    <div class="course-description">
-                                                            
-                                        <h4 class="no-marg-t">Triage Projects</h4>
-                                        <p>Learn to implement an effective work management process to field new project requests, gauge your team's bandwidth &amp; set realistic delivery dates.</p>
-                                    </div>
-                                    <div class="course-card-details">
-                                        <p class="acad-icon lesson-icon">5 Lessons</p>
-                                        <p class="acad-icon clock-icon">60-90 Minutes</p>
-                                    </div>
-                                </div> 
-                        </div> 
-                </div>
-                <div >
-                        <div class="course-card">
-                            <img src="https://media.coschedule.com/uploads/2020/09/2020-Academy-Course-Cards_Social-Media-Posting.png" alt="" />
-                                <div class="course-card-info">
-                                    <div class="course-description">
-                                                            
-                                        <h4 class="no-marg-t">Social Media Posting Schedule</h4>
-                                        <p>Get the ultimate social media posting schedule to drive more traffic from your social media messages.</p>
-                                    </div>
-                                    <div class="course-card-details">
-                                        <p class="acad-icon lesson-icon">5 Lessons</p>
-                                        <p class="acad-icon clock-icon">60-90 Minutes</p>
-                                    </div>
-                                </div> 
-                        </div> 
-                </div>
-                <div >
-                        <div class="course-card">
-                            <img src="https://media.coschedule.com/uploads/2020/09/2020-Academy-Course-Cards_Marketing-Campaigns.png" alt="" />
-                                <div class="course-card-info">
-                                    <div class="course-description">
-                                                            
-                                        <h4 class="no-marg-t">Marketing Campaigns</h4>
-                                        <p>Learn how to plan, map out, and execute a successful marketing campaign</p>
-                                    </div>
-                                    <div class="course-card-details">
-                                        <p class="acad-icon lesson-icon">5 Lessons</p>
-                                        <p class="acad-icon clock-icon">60-90 Minutes</p>
-                                    </div>
-                                </div> 
-                        </div> 
-                </div>
-                 <div >
-                        <div class="course-card">
-                            <img src="https://media.coschedule.com/uploads/2020/09/2020-Academy-Course-Cards_Marketing-Calendar.png" alt="" />
-                                <div class="course-card-info">
-                                    <div class="course-description">
-                                                            
-                                        <h4 class="no-marg-t">Marketing Calendar</h4>
-                                        <p>Learn how to plan a marketing calendar. Get your marketing organized to publish more content with better results.</p>
-                                    </div>
-                                    <div class="course-card-details">
-                                        <p class="acad-icon lesson-icon">5 Lessons</p>
-                                        <p class="acad-icon clock-icon">60-90 Minutes</p>
-                                    </div>
-                                </div> 
-                        </div> 
-                </div>
-                <div >
-                        <div class="course-card">
-                            <img src="https://media.coschedule.com/uploads/2020/09/2020-Academy-Course-Cards_Marketing-Skills.png" alt="" />
-                                <div class="course-card-info">
-                                    <div class="course-description">
-                                                            
-                                        <h4 class="no-marg-t">Marketing Skills</h4>
-                                        <p>Learn how to build marketing skills that will help you be more successful. Implement new marketing strategies &amp; tactics faster than before.</p>
-                                    </div>
-                                    <div class="course-card-details">
-                                        <p class="acad-icon lesson-icon">6 Lessons</p>
-                                        <p class="acad-icon clock-icon">45-60 Minutes</p>
-                                    </div>
-                                </div> 
-                        </div> 
-                </div>
-                <div>
-                        <div class="course-card">
-                            <img src="https://media.coschedule.com/uploads/2020/09/2020-Academy-Course-Cards_Content-Marketing-SEO.png" alt="" />
-                                <div class="course-card-info">
-                                    <div class="course-description">
-                                                            
-                                        <h4 class="no-marg-t">Content Marketing SEO</h4>
-                                        <p>Learn how to keep search in mind while writing, doing keyword research, and optimizing your content and overall SEO strategy.</p>
-                                    </div>
-                                    <div class="course-card-details">
-                                        <p class="acad-icon lesson-icon">6 Lessons</p>
-                                        <p class="acad-icon clock-icon">45-60 Minutes</p>
-                                    </div>
-                                </div> 
-                        </div> 
-                </div>
-                <div >
-                        <div class="course-card">
-                            <img src="https://media.coschedule.com/uploads/2020/09/2020-Academy-Course-Cards_Facebook-Advertising.png" alt="" />
-                                <div class="course-card-info">
-                                    <div class="course-description">
-                                                            
-                                        <h4 class="no-marg-t">Facebook Advertising</h4>
-                                        <p>Learn the key things to consider while building, maintaining, and tracking Facebook ad campaigns to ensure they stay healthy.</p>
-                                    </div>
-                                    <div class="course-card-details">
-                                        <p class="acad-icon lesson-icon">5 Lessons</p>
-                                        <p class="acad-icon clock-icon">45-60 Minutes</p>
-                                    </div>
-                                </div> 
-                        </div> 
-                </div>
-                <div >
-                        <div class="course-card">
-                            <img src="https://media.coschedule.com/uploads/2020/09/2020-Academy-Course-Cards_Brand-Strategy.png" alt="" />
-                                <div class="course-card-info">
-                                    <div class="course-description">
-                                                            
-                                        <h4 class="no-marg-t">Brand Strategy</h4>
-                                        <p>After this course, you'll understand what a brand is, learn how to build your branding framework, and craft your value proposition.</p>
-                                    </div>
-                                    <div class="course-card-details">
-                                        <p class="acad-icon lesson-icon">5 Lessons</p>
-                                        <p class="acad-icon clock-icon">30-45 Minutes</p>
-                                    </div>
-                                </div> 
-                        </div> 
-                </div>
-                <div >
-                        <div class="course-card">
-                            <img src="https://media.coschedule.com/uploads/2020/09/2020-Academy-Course-Cards_Product-Launch.png" alt="" />
-
-                                <div class="course-card-info">
-                                    <div class="course-description">
-                                                            
-                                        <h4 class="no-marg-t">Product Launch</h4>
-                                        <p>Learn how to organize a product launch. Equip your team with the tools and tactics to execute a successful product launch.</p>
-                                    </div>
-                                    <div class="course-card-details">
-                                        <p class="acad-icon lesson-icon">6 Lessons</p>
-                                        <p class="acad-icon clock-icon">60-90 Minutes</p>
-                                    </div>
-                                </div> 
-                            </div> 
-                </div>
-                <div >
-                        <div class="course-card">
-                            <img src="https://media.coschedule.com/uploads/2020/09/2020-Academy-Course-Cards_Agile-Marketing.png" alt="" />
-                                <div class="course-card-info">
-                                    <div class="course-description">
-                                                            
-                                        <h4 class="no-marg-t">Agile Marketing</h4>
-                                        <p>Learn how to implement agile workflows, run daily stand ups, and improve your work with agile retrospectives.</p>
-                                    </div>
-                                    <div class="course-card-details">
-                                        <p class="acad-icon lesson-icon">7 Lessons</p>
-                                        <p class="acad-icon clock-icon">45-60 Minutes</p>
-                                    </div>
-                                </div> 
-                        </div> 
-                </div>
-                <div >
-                        <div class="course-card">
-                            <img src="https://media.coschedule.com/uploads/2020/09/2020-Academy-Course-Cards_Scrum-Project-Management-.png" alt="" />
-                                <div class="course-card-info">
-                                    <div class="course-description">
-                                                            
-                                        <h4 class="no-marg-t">Scrum Project Management</h4>
-                                        <p>This short, 3 part course gives you the info to quickly implement scrum project management to keep your team focused on strategy.</p>
-                                    </div>
-                                    <div class="course-card-details">
-                                        <p class="acad-icon lesson-icon">3 Lessons</p>
-                                        <p class="acad-icon clock-icon">15-30 Minutes</p>
-                                    </div>
-                                </div> 
-                        </div> 
-                </div>
-                <div >
-                        <div class="course-card">
-                            <img src="https://media.coschedule.com/uploads/2020/09/2020-Academy-Course-Cards_Marketing-Workflows.png" alt="" />
-                                <div class="course-card-info">
-                                    <div class="course-description">
-                                                            
-                                        <h4 class="no-marg-t">Marketing Workflows</h4>
-                                        <p>Improve collaboration &amp; efficiency. Everything you need to create effective workflows with accurate deadlines, so projects get done on time.</p>
-                                    </div>
-                                    <div class="course-card-details">
-                                        <p class="acad-icon lesson-icon">6 Lessons</p>
-                                        <p class="acad-icon clock-icon">30-45 Minutes</p>
-                                    </div>
-                                </div> 
-                        </div> 
-                </div>
-                <div >
-                  
-                        <div class="course-card">
-                            <img src="https://media.coschedule.com/uploads/2020/09/2020-Academy-Course-Cards_Headline-Basics.png" alt="" />
-                                <div class="course-card-info">
-                                    <div class="course-description">
-                                                            
-                                        <h4 class="no-marg-t">Headline Basics</h4>
-                                        <p>Write Headlines That Drive More Traffic, Shares, &amp; Search Results. Proven process &amp; tactics to write headlines that convince your audience to click.</p>
-                                    </div>
-                                    <div class="course-card-details">
-                                        <p class="acad-icon lesson-icon">4 Lessons</p>
-                                        <p class="acad-icon clock-icon">30-45 Minutes</p>
-                                    </div>
-                                </div> 
-                        </div> 
-                    
-                </div>
-            </div> 
-        </div> 
-                    <div class="carousel-controls">
-                        <button class="carousel-arrow carousel-arrow-prev aj-carousel-arrow-prev"  >
-                            <img src="https://coschedule.com/blog/wp-content/themes/CoS4/img/academy/arrow-previous.svg" alt="" />
-                        </button> 
-                        <div class="carousel-bars">
-
-                        </div>
-                        <button class="carousel-arrow carousel-arrow-next aj-carousel-arrow-next" >
-                           <img src="https://coschedule.com/blog/wp-content/themes/CoS4/img/academy/arrow-next.svg" alt="" />
-                        </button>
-                    </div>
-        </div> 
+    <div className={styles.features_item}>
+        <img src="https://media.coschedule.com/uploads/2020/09/Academy-Pro-Squeeze-Page_feature-3.png" alt="" />
+        <h2 >Earn industry-recognized certifications.</h2>
+        <p>Build your resume &amp; marketing skills by taking one of our advanced marketing certification courses. Become a Certified Marketing Strategist or Social Media Strategist.</p>
+    </div> 
+    <div className={styles.features_item}>
+        <img src="https://media.coschedule.com/uploads/2020/09/Academy-Pro-Squeeze-Page_feature-4.png" alt="" />
+        <h2 >Learn from marketing pros you trust.</h2>
+        <p>The courses are taught by the CoSchedule experts behind our blog. Our instructors have tons of experience from building a million subscribers email list to averaging 700k+ monthly blog readers.</p>
+    </div> 
+    <div className={styles.features_item}>
+        <img src="https://media.coschedule.com/uploads/2020/09/Academy-Pro-Squeeze-Page_feature-2.png" alt="" />
+        <h2 >Choose new courses you want to see.</h2>
+        <p>With the Actionable Marketing Institute Pro, you’ll get a new course every month. Your feedback determines what course to add next. You won’t want to miss a single one!</p>
+    </div> 
+    <div className={styles.features_item}>
+        <img src="https://media.coschedule.com/uploads/2020/09/Academy-Pro-Squeeze-Page_feature-5.png" alt="" />
+        <h2 >Your success is our guarantee.</h2>
+        <p>Your learning is our #1 priority. If you are not satisfied with your course, contact us within 24 hours of completion for a full refund.</p>
     </div> 
 </div>
+
+
+
+
+{/* style="background-color:#4BBB8D" */}
+
+<div className={styles.sedgwick_main_container}>
+    <img src="https://coschedule.com/blog/wp-content/themes/CoS4/img/academy/quotes.svg" alt="" />
+    <h3>I like having access to so many courses in one place. They’re all short enough that they don’t feel like a huge commitment to start. But they focus on information I actually need to put these strategies into practice.</h3>
+    <div className={styles.sedgwick_child_container}>
+        <div className={styles.sedgwick_container}>
+        <img src="https://media.coschedule.com/uploads/2020/09/Icy-Sedgwick.jpg" alt="" />
+        </div>
+        <p>Icy Sedgwick</p>
+    </div>
+    <img src="https://coschedule.com/blog/wp-content/themes/CoS4/img/academy/black-dots.svg" alt="" />
+</div>
+
+
 
 
    </>
