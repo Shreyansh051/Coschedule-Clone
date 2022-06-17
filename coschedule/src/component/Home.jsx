@@ -301,7 +301,7 @@ const Home = () => {
           href="/press/coschedule-appears-again-in-gartner-magic-quadrant-for-content-marketing-platforms"
           title="Read Press Release"
         >
-          <div class="gartner-text">
+          <div className={styles.gartnertext}>
             <h2 style={{ fontSize: "50px", color: "#4b4b4b" }}>Gartner</h2>
             <h4
               style={{
@@ -314,32 +314,32 @@ const Home = () => {
             </h4>
             <hr />
           </div>
-          <p>
+          <p className={styles.lastpara}>
             The Gartner Magic Quadrant™ for Content Marketing
             Platforms&nbsp;2020
           </p>
         </a>
 
-        <a href="/home">
-          <div class="gartner-text">
-            <img
+        <a className={styles.cosaccolade} href="/home">
+          <div className={styles.lastimg} >
+            <img 
               src="https://coschedule.com/_next/image?url=%2Fimg%2Ftestimonials%2Finc-5000-logo.png&w=384&q=75"
               alt="s"
             />
           </div>
-          <p>
+          <p className={styles.lastpara}>
             One Of The Fastest-Growing Marketing Platforms 3 Years
             In&nbsp;a&nbsp;Row
           </p>
         </a>
-        <a href="/home">
-          <div class="gartner-text">
-            <img
+        <a className={styles.cosaccolade} href="/home">
+          <div className={styles.lastimg2} >
+            <img 
               src="https://coschedule.com/_next/image?url=%2Fimg%2Ftestimonials%2Fg2crowd-badge.png&w=96&q=75"
               alt="ss"
             />
           </div>
-          <p>Awarded High Performer in 7 Product&nbsp;Categories</p>
+          <p className={styles.lastpara} style={{marginTop:"40px"}}>Awarded High Performer in 7 Product&nbsp;Categories</p>
         </a>
       </div>
       <div className={styles.coshome}>

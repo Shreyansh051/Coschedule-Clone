@@ -207,16 +207,16 @@ body {
 }
 .ullist {
   list-style-image: url(https://coschedule.com/img/home/orange-checkmark.svg);
+  text-align: left;
   padding-left: 50px;
   margin: 20px 0 25px;
-  margin-left: 22px;
   width: 340px;
   line-height: 2;
   margin-bottom: 38px;
+  list-style-position: inside;
+
 }
-ul li::marker {
-  margin-right: -20px;
-}
+
 
 .checkbtn {
   background-color: #ffede3;
@@ -258,9 +258,12 @@ ul li::marker {
   list-style-image: url(https://coschedule.com/img/home/blue-checkmark.svg);
   padding-left: 30px;
   margin: 20px 0 25px;
-  margin-left: 22px;
   line-height: 2;
   margin-bottom: 38px;
+  list-style-position: inside;
+  text-align: left;
+  margin-left:20px;
+  
 }
 .checkbtn3 {
   background-color: #e6defa;
@@ -285,9 +288,11 @@ ul li::marker {
   list-style-image: url(https://coschedule.com/img/home/purple-checkmark.svg);
   padding-left: 30px;
   margin: 20px 0 25px;
-  margin-left: 22px;
   line-height: 2;
+  text-align: left;
+  margin-left:20px;
   margin-bottom: 38px;
+  list-style-position: inside;
 }
 .heading4 {
   font-size: 30px;
@@ -303,17 +308,25 @@ ul li::marker {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-column-gap: 30px;
+  width:1140px;
+height: 349.78px;
+margin: auto;
 }
 
 .cosaccolade {
-  box-shadow: 2px 2px 20px 0 rgb(0 0 0 / 5%);
   display: block;
   border-radius: 4px;
   padding: 30px 50px;
   background: #fff;
   transition: all 0.3s ease-in-out;
-  min-height: 250px;
+  width: 360px;
+  height: 289.78px;
+ 
 }
+
+.cosaccolade:hover{box-shadow: 2px 2px 25px 0 rgb(0 0 0 / 15%);
+  cursor: pointer;
+  text-decoration: none;}
 .coshome {
   background: #f37e5d;
   background: linear-gradient(90deg, #f37e5d 0, #f9a97d);
@@ -373,9 +386,7 @@ ul li::marker {
   .BigBox{
     width:auto;
   }
-  .gridcss{
-    width: auto;
-  }
+  
   .coshome{
     width:auto;
   }
@@ -454,11 +465,9 @@ ul li::marker {
   width: auto;
   height: auto;
   text-overflow: hidden;
-  width: 300px;
   margin-top:-5px;
 }
 .ullist3{
-  width: 300px;
   text-overflow: hidden;
   margin-top:-10px;
 
@@ -623,3 +632,35 @@ ul li::marker {
   }
 }
 
+.lastimg{
+  height :85px;
+  width: 147px;
+  display: block;
+    margin: 20px auto;
+    margin-top: 38px;
+}
+.lastimg2{
+  height:84px;
+  width:110px;
+  display: block;
+    margin: 20px auto;
+    margin-top: 26px;
+
+}
+.lastpara{
+  font-family: MuseoSans-300,sans-serif;
+    color: #4b4b4b;
+    font-size: 18px;
+    line-height: 170%;
+    margin: 0 0 10px;
+    box-sizing: border-box;
+}
+.gartnertext{
+  margin: 18px 0;
+}
+.gartnertext>hr{
+  width: 70px;
+    border: 0;
+    border-top: 3px solid #e9e9e9;
+    margin: 15px auto;
+}
