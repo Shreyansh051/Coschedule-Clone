@@ -1,5 +1,5 @@
 import styles from "../Css/Home.module.css";
-
+import {NavLink} from "react-router-dom";
 const Home = () => {
   return (
     <div>
@@ -273,11 +273,11 @@ const Home = () => {
               </ul>
               <a
                 className={styles.checkbtn3}
-                href="/marketing-suite"
                 data-testid="button-link"
                 title="Learn more about CoSchedule's Marketing Suite"
               >
-                Explore More
+               <NavLink to="/Actionable">Explore More</NavLink>
+               
               </a>
             </div>
           </div>
