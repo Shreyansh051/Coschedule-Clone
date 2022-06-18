@@ -1,12 +1,22 @@
 import React from 'react';
+// <<<<<<< HEAD
 import { Link } from 'react-router-dom';
 import styles from "../Css/getademo.module.css"
+// =======
+
+// import "../Css/getademo.css"
+// >>>>>>> b9472ea193014f52710eeef29068feac852dfc01
 
 const GetADemo = () => {
   return (
     <div>
+
         <div className={styles.upperDiv}>
             <Link to="/" ><img src="https://coschedule.com/img/cos-logo-full-color.svg" className={styles.cosLogo} alt="CoSchedule Logo" /></Link>
+
+        <div className="upperDiv">
+            <img src="https://coschedule.com/img/cos-logo-full-color.svg" className="cosLogo" alt="CoSchedule Logo" />
+
             <br />
             <div className={styles.cosDemoTitle}>
                 <p className={styles.cosTitle}>See CoSchedule In Action</p>
@@ -50,6 +60,7 @@ const GetADemo = () => {
           <span>© Copyright 2022, all rights reserved.  </span>
           <span className={styles.underlined} > See our Terms & Policies.</span>
         </p>
+    </div>
     </div>
   )
 }
