@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "../Css/signin.css"
+import styles from "../Css/signin.module.css"
 // =======
 import { useNavigate, NavLink, Link } from "react-router-dom";
 
@@ -34,7 +34,7 @@ const Signin = () => {
   };
 
   return (
-    <div className="signinPage">
+    <div className={styles.signinPage}>
       {/* <h1>Login_Page</h1>
       <form method="POST">
         <input
@@ -58,13 +58,13 @@ const Signin = () => {
         <input type="submit" onClick={loginUser} />
       </form> */}
 
-<div >
+<div  >
 <img src="https://accounts.coschedule.com/img/login-boxes.svg"
- class="login-boxes-bg left" alt="Boxes to the Left" />
+ className={styles.loginboxesbg1} alt="Boxes to the Left" />
  <img src="https://accounts.coschedule.com/img/login-boxes.svg"
- class="login-boxes-bg right" alt="Boxes to the Right" />
+ className={styles.loginboxesbg2} alt="Boxes to the Right" />
 </div>
-    <div className="formDiv">
+    <div className={styles.formDiv}>
     <Link to="/" >
       <img src="https://coschedule.com/img/cos-logo-full-color.svg" className="cosLogo" alt="CoSchedule Logo" />
     </Link>
@@ -72,7 +72,7 @@ const Signin = () => {
 
       <form method="POST">
 
-        <div className="formComponent">
+        <div className={styles.formComponent}>
           <label >EMAIL ADDRESS</label>
           <br />
           <input   type="email"
@@ -82,7 +82,7 @@ const Signin = () => {
            placeholder="Email Address" required />
         </div>
 
-        <div className="formComponent">
+        <div className={styles.formComponent}>
           <label >PASSWORD</label>
           <br />
           <input  type="password"
@@ -93,7 +93,7 @@ const Signin = () => {
           required/>
         </div>
 
-        <div className="formComponent">
+        <div className={styles.formComponent}>
             
         <input id="SigninBtn"type="submit" onClick={loginUser} value ="Sign In" />
 

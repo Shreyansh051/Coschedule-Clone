@@ -100,20 +100,32 @@
     text-decoration: underline;
 }
 
-.login-boxes-bg.left {
+/* 
+.loginboxesbgleft {
+    align-self: left;
     bottom: -50px;
     left: -20px;
-}
-
-.login-boxes-bg {
+} */
+.loginboxesbg1 {
+    bottom: -50px;
+    left: -20px;
     position: fixed;
     width: 250px;
     opacity: .4;
 }
-.login-boxes-bg.right {
+.loginboxesbg2 {
+    position: fixed;
+    width: 250px;
+    opacity: .4;
     top: -50px;
     right: -20px;
 }
+/* .loginboxesbgright {
+    border-top: 1px solid red;
+    align-self: right;
+    top: -50px;
+    right: -20px;
+} */
 
 @media (min-width: 320px) and (max-width: 480px) {
     .upperDiv{
