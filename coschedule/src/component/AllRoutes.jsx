@@ -9,6 +9,7 @@ import Signin from "../pages/Signin";
 import Signup from "../pages/Signup";
 import GetADemo from "../pages/GetADemo";
 import Actionable from "../pages/Actionable_Marketing/Actionable";
+import Customer from "../pages/Customer_Stories/Customer";
 // import Signup from "../pages/Signup";
 const AllRoutes = () => {
   return (
@@ -23,6 +24,8 @@ const AllRoutes = () => {
         <Route path="/Signup" element={<Signup />} />
         <Route path="/Actionable" element={<Actionable />} />
         <Route path="/GetADemo" element={<GetADemo />} />
+        <Route path="/Customer" element={<Customer/>}/>
+        
       </Routes>
       <h2 style={{ marginTop: "50px" }}>
         <Footer />

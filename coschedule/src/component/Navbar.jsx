@@ -314,15 +314,23 @@ const NAV_ITEMS = [
     label: "Why Coschedule",
     children: [
       {
-        label: "Customer Storeis",
+        label: (
+          <Link as={ReachLink} to="/Customer">
+            "Customer Storeis",
+          </Link>
+        ),
         subLabel: "See Scgedule Customers have to found Success ",
-        href: "#",
       },
       {
-        label: "Build Your Case For Schedule",
+        label: (
+          
+          <Link as={ReachLink} to="/Actionable">
+          "Actionable Marketing",
+        </Link>
+        
+        ),
         subLabel:
           "Get Your Customer ROI report & see what Your team could save by switching to coschedule ",
-        href: "#",
       },
     ],
   },
