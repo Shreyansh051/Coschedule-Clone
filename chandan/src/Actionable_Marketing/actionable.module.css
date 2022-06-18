@@ -1,5 +1,6 @@
 
 .develop_main_div{
+    /* margin-top: -800px; */
     width: 100%;
     /* border: 1px solid red; */
     height: 550px;;
@@ -8,8 +9,12 @@
     justify-content: space-between;   
    
 }
+.first_svg_div{
+    height: 30px;
+}
 
-.develop_main_div::before {
+
+/* .develop_main_div::before {
     content: "";
     width: 25%;
     height: 150px;
@@ -28,7 +33,7 @@
     right: 0;
     background:  #835ce5;
     transform: skewY(-4deg);
-}
+} */
 .develop_main_second_div{
     /* border: 1px solid yellow; */
     width:75%;
@@ -114,7 +119,7 @@
 
 .industry_main_div{
     height:300px;
-    margin-top: 200px;
+    margin-top: 260px;
     font-weight: 500;
    
 }

@@ -4,8 +4,13 @@ import styles from './actionable.module.css'
 const Actionable = () => {
   return (
    <>
-    
+   <div className={styles.first_svg_div}>
+        <svg  x="0" y="0" preserveAspectRatio="none" viewBox="0 0 1293 652">
+            <path d="M0 0h1293v547.5L289.2 650.6c-21.5 2.2-43.2-2.6-61.7-13.8L0 500.1V0z" fill-rule="evenodd" clip-rule="evenodd" fill="#835CE5"></path>
+        </svg>
+    </div>
    <div className={styles.develop_main_div}>
+   
    <div className={styles.develop_main_second_div}>
    <div className={styles.develop_child_1_div}>
             <div className={styles.develop_child_1_h1_div}>
