@@ -1,8 +1,13 @@
 import styles from "../Css/Home.module.css";
-import {NavLink} from "react-router-dom";
+import { Link } from "react-router-dom";
+import { Link as ReachLink } from "react-router-dom";
+import Navbar from "../component/Navbar";
+import Footer from "./Footer";
+
 const Home = () => {
   return (
     <div>
+      <Navbar />
       <h1 className={styles.heading}>
         Organize All Of Your Marketing In
         <h1>One Place.From&nbsp;Any&nbsp;Place.</h1>
@@ -11,9 +16,10 @@ const Home = () => {
         Get more done in less time with the only work management software
         for&nbsp;marketers.
       </p>
-      <a href="www.goggle.com" className={styles.button}>
+      <Link className={styles.button} as={ReachLink} to="/Calender">
         Get Started Free
-      </a>
+      </Link>
+
       <p className={styles.small}>Why not? it's free forever</p>
       <img
         className={styles.imgposter}
@@ -134,13 +140,14 @@ const Home = () => {
                 <li>Share your progress with higher-ups</li>
                 <li>Show what your marketing is doing</li>
               </ul>
-              <a
+
+              <Link
                 className={` ${styles.checkbtn} ${styles.top} `}
-                href="/marketing-calendar"
-                title="Learn more about CoSchedule's Marketing Calendar"
+                as={ReachLink}
+                to="/mtkcal"
               >
                 Explore More
-              </a>
+              </Link>
             </div>
           </div>
           <div className={styles.inside}>
@@ -171,14 +178,13 @@ const Home = () => {
                 <li>Eliminate content bottlenecks</li>
                 <li>Maximize resources to increase output</li>
               </ul>
-              <a
-                className={`${styles.checkbtn}`}
-                href="/marketing-suite"
-                data-testid="button-link"
-                title="Learn more about CoSchedule's Marketing Suite"
+              <Link
+                className={` ${styles.checkbtn}  `}
+                as={ReachLink}
+                to="/MarkSuit"
               >
                 Explore More
-              </a>
+              </Link>
             </div>
           </div>
         </div>
@@ -217,13 +223,13 @@ const Home = () => {
                 <li>Improve headlines with smart suggestions</li>
                 <li>Find the high-scoring words instantly</li>
               </ul>
-              <a
-                href="/marketing-calendar"
-                title="Learn more about CoSchedule's Marketing Calendar"
-                className={styles.checkbtn2}
+              <Link
+                className={` ${styles.checkbtn2}  `}
+                as={ReachLink}
+                to="/mtkcal"
               >
                 Explore More
-              </a>
+              </Link>
             </div>
           </div>
           <div className={styles.inside}>
@@ -271,14 +277,13 @@ const Home = () => {
                 <li>Spend less time learning & more time doing</li>
                 <li>Learn from industry pros you trust</li>
               </ul>
-              <a
-                className={styles.checkbtn3}
-                data-testid="button-link"
-                title="Learn more about CoSchedule's Marketing Suite"
+              <Link
+                className={` ${styles.checkbtn3} `}
+                as={ReachLink}
+                to="/Actionable"
               >
-               <NavLink to="/Actionable">Explore More</NavLink>
-               
-              </a>
+                Explore More
+              </Link>
             </div>
           </div>
         </div>
@@ -341,11 +346,13 @@ const Home = () => {
         <h2 className={styles.coshomehead}>
           Organize all of your marketing in one&nbsp;place
         </h2>
-        <a href="/signup" className={styles.lastbtn}>
+
+        <Link className={styles.lastbtn} as={ReachLink} to="/Calender">
           Get Started Free
-        </a>
+        </Link>
       </div>
       {/*container cover div */}
+      <Footer />
     </div>
   );
 };
