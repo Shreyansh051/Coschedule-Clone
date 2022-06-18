@@ -82,7 +82,9 @@ export default function WithSubnavigation() {
             variant={'link'}
             href={'#'}
             fontFamily={'heading'}>
-            Sign In
+           <Link as= {ReachLink} to="/signin">
+               Sign In
+            </Link>
           </Button>
           <Button as={'a'} fontSize={'15px'} fontWeight={400} variant={'link'}>
             <Link as= {ReachLink} to="/getADemo">

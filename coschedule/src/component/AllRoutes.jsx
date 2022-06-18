@@ -8,14 +8,16 @@ import Pricing from '../pages/Pricing';
 import Home from "../component/Home"
 import GetADemo from '../pages/GetADemo';
 import CreateCalendar from '../pages/CreateCalendar';
+import Signin from '../pages/Signin';
 const AllRoutes = () => {
   return (
     <div>
       <Navbar />
-      <Home/>
+      {/* <Home/> */}
       <Routes>
         <Route path='/Calender' element={<Calender />} />
         <Route path='/Pricing' element={<Pricing />} />
+        <Route path='/signin' element={<Signin />} />
         <Route path="/getADemo" element={<GetADemo />} />
         <Route path="/createCalendar" element={<CreateCalendar />} />
       </Routes>
