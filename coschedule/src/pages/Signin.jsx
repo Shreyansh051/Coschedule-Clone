@@ -1,7 +1,10 @@
 import React, { useState } from "react";
 
-import { useNavigate } from "react-router-dom";
-const SignIn = () => {
+// =======
+import { useNavigate, NavLink } from "react-router-dom";
+
+const Signin = () => {
+// >>>>>>> 4b3c9e7d0ee08522017e8cde34c34e705d5775af
   const navigate = useNavigate();
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
@@ -98,7 +101,12 @@ const SignIn = () => {
 
        
       </form>
+{/* <<<<<<< HEAD */}
     
+// =======
+      <br />
+      <NavLink to="/Signup">Need an account?</NavLink>
+{/* >>>>>>> 4b3c9e7d0ee08522017e8cde34c34e705d5775af */}
     </div>
 
     {/* <p className="terms"  style={{ marginTop:'60px'}}>
@@ -115,4 +123,4 @@ const SignIn = () => {
   );
 };
 
-export default SignIn;
+export default Signin;
