@@ -52,6 +52,7 @@ const Signin = () => {
           required
         />
         <br />
+        <input type="submit" onClick={loginUser} />
       </form>
       <br />
       <NavLink to="/Signup">Need an account?</NavLink>
