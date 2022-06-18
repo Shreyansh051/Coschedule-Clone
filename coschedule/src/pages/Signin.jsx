@@ -1,10 +1,10 @@
 import React, { useState } from "react";
-import styles from "../Css/signin.module.css"
-// =======
+import styles from "../Css/signin.module.css";
+
 import { useNavigate, NavLink, Link } from "react-router-dom";
 
 const Signin = () => {
-// >>>>>>> 4b3c9e7d0ee08522017e8cde34c34e705d5775af
+
   const navigate = useNavigate();
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
@@ -35,97 +35,82 @@ const Signin = () => {
 
   return (
     <div className={styles.signinPage}>
-      {/* <h1>Login_Page</h1>
-      <form method="POST">
-        <input
-          type="email"
-          name="email"
-          value={email}
-          onChange={(e) => setEmail(e.target.value)}
-          placeholder="Enter Email"
-          required
+      <div>
+        <img
+          src="https://accounts.coschedule.com/img/login-boxes.svg"
+          className={styles.loginboxesbg1}
+          alt="Boxes to the Left"
         />
-        <br />
-        <input
-          type="password"
-          name="password"
-          placeholder="Enter Password"
-          value={password}
-          onChange={(e) => setPassword(e.target.value)}
-          required
+        <img
+          src="https://accounts.coschedule.com/img/login-boxes.svg"
+          className={styles.loginboxesbg2}
+          alt="Boxes to the Right"
         />
-        <br />
-        <input type="submit" onClick={loginUser} />
-      </form> */}
-
-<div  >
-<img src="https://accounts.coschedule.com/img/login-boxes.svg"
- className={styles.loginboxesbg1} alt="Boxes to the Left" />
- <img src="https://accounts.coschedule.com/img/login-boxes.svg"
- className={styles.loginboxesbg2} alt="Boxes to the Right" />
-</div>
-    <div className={styles.formDiv}>
-    <Link to="/" >
-      <img src="https://coschedule.com/img/cos-logo-full-color.svg" className={styles.cosLogo} alt="CoSchedule Logo" />
-    </Link>
-    <br />
-
-      <form method="POST">
-
-        <div className={styles.formComponent}>
-          <label className={styles.formComponent_label} >EMAIL ADDRESS</label>
-          <br />
-          <input   type="email"
-          name="email"
-          value={email}
-          onChange={(e) => setEmail(e.target.value)}
-           placeholder="Email Address" required
-           className={styles.formComponent_input} />
-        </div>
-
-        <div className={styles.formComponent}>
-          <label className={styles.formComponent_label}  >PASSWORD</label>
-          <br />
-          <input  type="password"
-          name="password"
-          placeholder="Password"
-          value={password}
-          onChange={(e) => setPassword(e.target.value)}
-          required
-          className={styles.formComponent_input}
+      </div>
+      <div className={styles.formDiv}>
+        <Link to="/">
+          <img
+            src="https://coschedule.com/img/cos-logo-full-color.svg"
+            className={styles.cosLogo}
+            alt="CoSchedule Logo"
           />
-        </div>
+        </Link>
+        <br />
 
-        <div className={styles.formComponent}>
-            
-        <input className={styles.SigninBtn}  type="submit" onClick={loginUser} value ="Sign In" />
+        <form method="POST">
+          <div className={styles.formComponent}>
+            <label className={styles.formComponent_label}>EMAIL ADDRESS</label>
+            <br />
+            <input
+              type="email"
+              name="email"
+              value={email}
+              onChange={(e) => setEmail(e.target.value)}
+              placeholder="Email Address"
+              required
+              className={styles.formComponent_input}
+            />
+          </div>
 
-        </div>
+          <div className={styles.formComponent}>
+            <label className={styles.formComponent_label}>PASSWORD</label>
+            <br />
+            <input
+              type="password"
+              name="password"
+              placeholder="Password"
+              value={password}
+              onChange={(e) => setPassword(e.target.value)}
+              required
+              className={styles.formComponent_input}
+            />
+          </div>
 
-       
-      </form>
+          <div className={styles.formComponent}>
+            <input
+              className={styles.SigninBtn}
+              type="submit"
+              onClick={loginUser}
+              value="Sign In"
+            />
+          </div>
+        </form>
 
-      <br />
-      <p>
-        <span className={styles.underlined} ><NavLink to="/Signup">Need an account?  |</NavLink></span>
-        <span className={styles.underlined}><NavLink to="/Signup"> Forgot your password?</NavLink></span>
+        <br />
+        <p>
+          <span className={styles.underlined}>
+            <NavLink to="/Signup">Need an account? |</NavLink>
+          </span>
+          <span className={styles.underlined}>
+            <NavLink to="/Signup"> Forgot your password?</NavLink>
+          </span>
+        </p>
 
-      </p>
       
-{/* >>>>>>> 4b3c9e7d0ee08522017e8cde34c34e705d5775af */}
+      </div>
+
+      
     </div>
-
-    {/* <p className="terms"  style={{ marginTop:'60px'}}>
-      <span>© Copyright 2022, all rights reserved.  </span>
-      <span className="underlined" > See our Terms & Policies.</span>
-    </p> */}
-
-    </div>
-
-
-
-        
-
   );
 };
 

@@ -16,7 +16,6 @@
     font-weight: 600;
 }
 .formDiv{
-    /* border: 1px solid red; */
     width: 80%;
     margin: auto;
     padding:3rem 4rem;
@@ -82,7 +81,6 @@
 
 @media all and  (min-width: 320px) and (max-width: 480px) {
     .upperDiv{
-        /* border: 1px solid red ; */
         width: 90%;
         margin: auto;
         font-family: "MuseoSans-300",sans-serif;
@@ -93,7 +91,6 @@
         margin: auto;
     }
     .formDiv{
-        /* border: 1px solid red; */
         width: 90%;
         margin: auto;
         padding:3rem 4rem;
@@ -116,7 +113,6 @@
 
 @media all and (min-width: 481px) and (max-width: 768px) {
     .upperDiv{
-        /* border: 1px solid red ; */
         width: 90%;
         margin: auto;
         font-family: "MuseoSans-300",sans-serif;
@@ -127,7 +123,6 @@
         margin: auto;
     }
     .formDiv{
-        /* border: 1px solid red; */
         width: 80%;
         margin: auto;
         padding:3rem 4rem;
@@ -150,7 +145,6 @@
 } 
 @media all and (min-width: 769px) and (max-width: 1201px) {
     .upperDiv{
-        /* border: 1px solid red ; */
         width: 90%;
         margin: auto;
         font-family: "MuseoSans-300",sans-serif;
@@ -161,7 +155,6 @@
         margin: auto;
     }
     .formDiv{
-        /* border: 1px solid red; */
         width: 80%;
         margin: auto;
         padding:3rem 4rem;
