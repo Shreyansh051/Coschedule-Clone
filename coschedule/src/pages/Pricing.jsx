@@ -1,5 +1,6 @@
 import React from 'react'
 import styles from "../Css/Pricing.module.css"
+import Footer from "../component/Footer"
 function Pricing() {
   return (
     <div>
@@ -232,6 +233,7 @@ function Pricing() {
       Create My Calendar
         </a>
       </div>
+      <Footer/>
     </div>
   )
 }

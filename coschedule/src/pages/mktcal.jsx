@@ -1,9 +1,13 @@
 
 import styles from "../Css/mtkcal.module.css"
+import Navbar from "../component/Navbar";
+import Footer from "../component/Footer";
 const GroceryItem = (props) => {
   
     return ( 
+
     <div className={styles.main}>
+   <Navbar />
             <div className={styles.browndiv}>
                 <div className={styles.browndiv1}>
                       <div className={styles.headingpart}>
@@ -108,7 +112,7 @@ const GroceryItem = (props) => {
             
         </div>
 
-        
+     <Footer />   
         
     </div>
     )

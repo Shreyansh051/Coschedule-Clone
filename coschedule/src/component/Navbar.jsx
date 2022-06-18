@@ -43,12 +43,14 @@ export default function WithSubnavigation() {
         align={"center"}
         className={styles.heading}
       >
-        <img
-          src="https://coschedule.com/img/cos-logo-full-color.svg"
-          alt=""
-          width={"200px"}
-        />
-
+        {" "}
+        <Link as={ReachLink} to="/">
+          <img
+            src="https://coschedule.com/img/cos-logo-full-color.svg"
+            alt=""
+            width={"200px"}
+          />
+        </Link>
         <Flex
           flex={{ base: 1, md: "auto" }}
           ml={{ base: -2 }}
@@ -74,7 +76,6 @@ export default function WithSubnavigation() {
             <DesktopNav />
           </Flex>
         </Flex>
-
         <Stack
           flex={{ base: 1, md: 0 }}
           justify={"flex-end"}
@@ -100,8 +101,10 @@ export default function WithSubnavigation() {
             fontSize={"15px"}
             fontWeight={400}
             variant={"link"}
-          ><Link as={ReachLink} to="/demo">Get A demo</Link>
-            
+          >
+            <Link as={ReachLink} to="/demo">
+              Get A demo
+            </Link>
           </Button>
           <Button
             display={{ base: "none", md: "inline-flex" }}
@@ -296,7 +299,7 @@ const NAV_ITEMS = [
     label: "Products",
     children: [
       {
-        label:(
+        label: (
           <Link as={ReachLink} to="/mtkcal">
             Marketing Calender
           </Link>
@@ -355,3 +358,4 @@ const NAV_ITEMS = [
     ],
   },
 ];
+

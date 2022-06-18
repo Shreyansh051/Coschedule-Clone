@@ -1,8 +1,10 @@
 import styles from "../Css/marksuit.module.css";
-
+import Navbar from "../component/Navbar";
+import Footer from "./Footer";
 const Marksuit = (props) => {
   return (
     <div className={styles.main}>
+    <Navbar/>
       <h1 className={styles.head}>
         Take Control Of Your Process And Bring Your Team Together.
       </h1>
@@ -235,6 +237,7 @@ const Marksuit = (props) => {
         </p>
         <button className={styles.btnend}>Request Your Demo</button>
       </div>
+      <Footer/>
     </div>
   );
 };
