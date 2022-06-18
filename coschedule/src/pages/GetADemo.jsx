@@ -1,12 +1,12 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+
 import "../Css/getademo.css"
 
 const GetADemo = () => {
   return (
     <div>
         <div className="upperDiv">
-            <Link to="/" ><img src="https://coschedule.com/img/cos-logo-full-color.svg" className="cosLogo" alt="CoSchedule Logo" /></Link>
+            <img src="https://coschedule.com/img/cos-logo-full-color.svg" className="cosLogo" alt="CoSchedule Logo" />
             <br />
             <div className="cosDemoTitle">
                 <p className="cosTitle">See CoSchedule In Action</p>

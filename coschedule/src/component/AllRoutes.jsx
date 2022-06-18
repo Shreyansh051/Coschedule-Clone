@@ -10,6 +10,9 @@ import Signup from "../pages/Signup";
 import GetADemo from "../pages/GetADemo";
 import Actionable from "../pages/Actionable_Marketing/Actionable";
 import Customer from "../pages/Customer_Stories/Customer";
+import GroceryItem from "../pages/mktcal";
+
+// import Marksuit from "../pages/marksuit";
 // import Signup from "../pages/Signup";
 const AllRoutes = () => {
   return (
@@ -18,13 +21,15 @@ const AllRoutes = () => {
      
       <Routes>
         <Route path ="/" element ={ <Home />}/>
-        <Route path="/CreateCalendar" element={<CreateCalendar />} />
+        <Route path="/Calender" element={<CreateCalendar />} />
         <Route path="/Pricing" element={<Pricing />} />
         <Route path="/Signin" element={<Signin />} />
         <Route path="/Signup" element={<Signup />} />
         <Route path="/Actionable" element={<Actionable />} />
-        <Route path="/GetADemo" element={<GetADemo />} />
+        <Route path="/demo" element={<GetADemo />} />
         <Route path="/Customer" element={<Customer/>}/>
+        <Route path="/mtkcal" element={<GroceryItem/>}/>
+        {/* <Route path="/MarkSuit" element={<Marksuit/>}/> */}
         
       </Routes>
       <h2 style={{ marginTop: "50px" }}>

@@ -100,8 +100,8 @@ export default function WithSubnavigation() {
             fontSize={"15px"}
             fontWeight={400}
             variant={"link"}
-          >
-            Get A demo
+          ><Link as={ReachLink} to="/demo">Get A demo</Link>
+            
           </Button>
           <Button
             display={{ base: "none", md: "inline-flex" }}
@@ -296,17 +296,24 @@ const NAV_ITEMS = [
     label: "Products",
     children: [
       {
-        label: "Marketing Calender",
+        label:(
+          <Link as={ReachLink} to="/mtkcal">
+            Marketing Calender
+          </Link>
+        ),
         subLabel:
           "A Callender is helps to you see schedule & share your marketing ",
         href: "#",
         img: "	https://coschedule.com/_next/image?url=%2Fimg%2Fpr…t%2Fmarketing-calendar-product-icon.png&w=64&q=75",
       },
       {
-        label: "Marketing Suites",
+        label: (
+          <Link as={ReachLink} to="/MarkSuit">
+            Marketing Suites
+          </Link>
+        ),
         subLabel:
           "A family of agils marketing Product to co-ordinate your team Projects and Process",
-        href: "#",
       },
     ],
   },
@@ -323,11 +330,9 @@ const NAV_ITEMS = [
       },
       {
         label: (
-          
           <Link as={ReachLink} to="/Actionable">
-          "Actionable Marketing",
-        </Link>
-        
+            "Actionable Marketing",
+          </Link>
         ),
         subLabel:
           "Get Your Customer ROI report & see what Your team could save by switching to coschedule ",
