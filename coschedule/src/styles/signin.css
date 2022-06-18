@@ -2,9 +2,9 @@
     display: block;
     margin-top:0px;
     background-color: #dcdcdc;
-    height:auto;
-    /* position: relative;
-    z-index: -1; */
+    height:800px;
+    position: relative;
+    z-index: -2;
 }
 .upperDiv{
     width: 50%;
@@ -105,7 +105,7 @@
     width: 250px;
     opacity: .4;
 }
-.account .login-boxes-bg.right {
+.login-boxes-bg.right {
     top: -50px;
     right: -20px;
 }
