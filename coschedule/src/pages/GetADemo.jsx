@@ -11,11 +11,11 @@ const GetADemo = () => {
   return (
     <div>
 
-        <div className={styles.upperDiv}>
+        <div style={{ marginTop:'40px'}} className={styles.upperDiv}>
             <Link to="/" ><img src="https://coschedule.com/img/cos-logo-full-color.svg" className={styles.cosLogo} alt="CoSchedule Logo" /></Link>
 
         <div className="upperDiv">
-            <img src="https://coschedule.com/img/cos-logo-full-color.svg" className="cosLogo" alt="CoSchedule Logo" />
+           
 
             <br />
             <div className={styles.cosDemoTitle}>
@@ -27,27 +27,27 @@ const GetADemo = () => {
         <div className={styles.formDiv}>
           <form action="">
             <div className={styles.formComponent}>
-              <label >Full Name</label>
+              <label className={styles.formComponent_label } >Full Name</label>
               <br />
-              <input  type="text" placeholder="Full Name" />
+              <input className={styles.formComponent_input} type="text" placeholder="Full Name" />
             </div>
 
             <div className={styles.formComponent}>
-              <label >Email Address</label>
+              <label className={styles.formComponent_label } >Email Address</label>
               <br />
-              <input  type="text" placeholder="Work Email Address" />
+              <input className={styles.formComponent_input} type="email" placeholder="Work Email Address" />
             </div>
 
             <div className={styles.formComponent}>
-              <label >Company</label>
+              <label className={styles.formComponent_label } >Company</label>
               <br />
-              <input  type="text" placeholder="Company Name" />
+              <input className={styles.formComponent_input}  type="text" placeholder="Company Name" />
             </div>
 
             <div className={styles.formComponent}>
-              <label >Website URL</label>
+              <label className={styles.formComponent_label } >Website URL</label>
               <br />
-              <input  type="text" placeholder="Company Website URL" />
+              <input className={styles.formComponent_input} type="text" placeholder="Company Website URL" />
             </div>
 
             <input className={styles.nextSubmitBtn} type="submit" value="Next" />

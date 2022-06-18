@@ -66,48 +66,49 @@ const Signin = () => {
 </div>
     <div className={styles.formDiv}>
     <Link to="/" >
-      <img src="https://coschedule.com/img/cos-logo-full-color.svg" className="cosLogo" alt="CoSchedule Logo" />
+      <img src="https://coschedule.com/img/cos-logo-full-color.svg" className={styles.cosLogo} alt="CoSchedule Logo" />
     </Link>
     <br />
 
       <form method="POST">
 
         <div className={styles.formComponent}>
-          <label >EMAIL ADDRESS</label>
+          <label className={styles.formComponent_label} >EMAIL ADDRESS</label>
           <br />
           <input   type="email"
           name="email"
           value={email}
           onChange={(e) => setEmail(e.target.value)}
-           placeholder="Email Address" required />
+           placeholder="Email Address" required
+           className={styles.formComponent_input} />
         </div>
 
         <div className={styles.formComponent}>
-          <label >PASSWORD</label>
+          <label className={styles.formComponent_label}  >PASSWORD</label>
           <br />
           <input  type="password"
           name="password"
           placeholder="Password"
           value={password}
           onChange={(e) => setPassword(e.target.value)}
-          required/>
+          required
+          className={styles.formComponent_input}
+          />
         </div>
 
         <div className={styles.formComponent}>
             
-        <input id="SigninBtn"type="submit" onClick={loginUser} value ="Sign In" />
+        <input className={styles.SigninBtn}  type="submit" onClick={loginUser} value ="Sign In" />
 
         </div>
 
        
       </form>
-{/* <<<<<<< HEAD */}
-    
-{/* // ======= */}
+
       <br />
       <p>
-        <span><NavLink to="/Signup">Need an account?  |</NavLink></span>
-        <span><NavLink to="/Signup"> Forgot your password?</NavLink></span>
+        <span className={styles.underlined} ><NavLink to="/Signup">Need an account?  |</NavLink></span>
+        <span className={styles.underlined}><NavLink to="/Signup"> Forgot your password?</NavLink></span>
 
       </p>
       
