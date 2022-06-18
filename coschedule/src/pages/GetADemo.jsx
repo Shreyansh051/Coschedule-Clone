@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import "../styles/getademo.css"
+import "../Css/getademo.css"
 
 const GetADemo = () => {
   return (
