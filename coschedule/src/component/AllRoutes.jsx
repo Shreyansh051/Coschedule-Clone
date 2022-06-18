@@ -1,13 +1,14 @@
 import React from "react";
 import Navbar from "./Navbar";
 import { Routes, Route } from "react-router-dom";
-// import Calender from "../pages/Calender";
+import CreateCalendar from "../pages/CreateCalendar";
 import Footer from "./Footer";
 import Pricing from "../pages/Pricing";
 import Home from "../component/Home";
 import Signin from "../pages/Signin";
 import Signup from "../pages/Signup";
-// import Actionable from "../pages/Actionable_Marketing/Actionable";
+import GetADemo from "../pages/GetADemo";
+import Actionable from "../pages/Actionable_Marketing/Actionable";
 // import Signup from "../pages/Signup";
 const AllRoutes = () => {
   return (
@@ -16,11 +17,12 @@ const AllRoutes = () => {
      
       <Routes>
         <Route path ="/" element ={ <Home />}/>
-        {/* <Route path="/Calender" element={<Calender />} /> */}
+        <Route path="/CreateCalendar" element={<CreateCalendar />} />
         <Route path="/Pricing" element={<Pricing />} />
         <Route path="/Signin" element={<Signin />} />
         <Route path="/Signup" element={<Signup />} />
-        {/* <Route path="/Actionable" element={<Actionable />} /> */}
+        <Route path="/Actionable" element={<Actionable />} />
+        <Route path="/GetADemo" element={<GetADemo />} />
       </Routes>
       <h2 style={{ marginTop: "50px" }}>
         <Footer />
