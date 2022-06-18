@@ -1,10 +1,11 @@
+
 .signinPage{
     display: block;
-    margin-top:0px;
+    top: 0px;
     background-color: #dcdcdc;
-    height:800px;
+    height:700px;
     position: relative;
-    z-index: -2;
+    z-index: 0;
 }
 .upperDiv{
     width: 50%;
@@ -26,17 +27,20 @@
 .formDiv{
     /* border: 1px solid red; */
     display: block;
+    position: absolute;
+    z-index: 2;
     width: 35%;
     padding:3rem 4rem;
-    margin-top:3rem;
+    /* margin-top:3rem; */
     border-radius: 8px;
     box-shadow: 2px 2px 20px 0 rgb(0 0 0 / 10%);
     background-color: #f7f7f7 ;
-    padding-top: 100px ;
-    margin: auto;
+    /* margin: auto; */
     padding-top:50px;
-    margin-top: 100px;
-    /* position: absolute; */
+    align-self: center;
+    margin:10% 33%;
+    /* margin-top: 100px; */
+
     
 }
 .formComponent{
@@ -79,6 +83,7 @@
     color: white;
     border-radius: 3px;
     border: none;
+    cursor: pointer;
 }
 .terms{
     font-size: 12px;

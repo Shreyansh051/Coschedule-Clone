@@ -1,7 +1,7 @@
 import React, { useState } from "react";
-
+import "../Css/signin.css"
 // =======
-import { useNavigate, NavLink } from "react-router-dom";
+import { useNavigate, NavLink, Link } from "react-router-dom";
 
 const Signin = () => {
 // >>>>>>> 4b3c9e7d0ee08522017e8cde34c34e705d5775af
@@ -34,7 +34,7 @@ const Signin = () => {
   };
 
   return (
-    <div className="SigninPage">
+    <div className="signinPage">
       {/* <h1>Login_Page</h1>
       <form method="POST">
         <input
@@ -103,9 +103,14 @@ const Signin = () => {
       </form>
 {/* <<<<<<< HEAD */}
     
-// =======
+{/* // ======= */}
       <br />
-      <NavLink to="/Signup">Need an account?</NavLink>
+      <p>
+        <span><NavLink to="/Signup">Need an account?  |</NavLink></span>
+        <span><NavLink to="/Signup"> Forgot your password?</NavLink></span>
+
+      </p>
+      
 {/* >>>>>>> 4b3c9e7d0ee08522017e8cde34c34e705d5775af */}
     </div>
 
