@@ -1,16 +1,13 @@
 import React from 'react';
-// <<<<<<< HEAD
-// import { Link } from 'react-router-dom';
+
 import styles from "../Css/createcalendar.module.css"
-// =======
+
 import { Link } from 'react-router-dom';
 
 
-// >>>>>>> b9472ea193014f52710eeef29068feac852dfc01
-
 const CreateCalendar = () => {
   return (
-    <div>
+    <div className={styles.calendarDiv} >
         <div className={styles.upperDiv}>
             {/* <Link to="/" ><img src="https://coschedule.com/img/cos-logo-full-color.svg" className={styles.}cosLogo} alt="CoSchedule Logo" /></Link>
             <br /> */}
@@ -23,39 +20,39 @@ const CreateCalendar = () => {
         <div className={styles.formDiv}>
           <form action="">
             <div className={styles.formComponent}>
-              <label >Full Name</label>
+              <label className={styles.formComponent_label} >Full Name</label>
               <br />
-              <input  type="text" placeholder="Full Name" />
+              <input className={styles.formComponent_input}  type="text" placeholder="Full Name" />
             </div>
 
             <div className={styles.formComponent}>
-              <label >Email Address</label>
+              <label  className={styles.formComponent_label} >Email Address</label>
               <br />
-              <input  type="email" placeholder="Work Email Address" />
+              <input className={styles.formComponent_input}  type="email" placeholder="Work Email Address" />
             </div>
 
             <div className={styles.formComponent}>
-              <label >Company</label>
+              <label  className={styles.formComponent_label} >Company</label>
               <br />
-              <input  type="text" placeholder="Company Name" />
+              <input className={styles.formComponent_input}  type="text" placeholder="Company Name" />
             </div>
 
             <div className={styles.formComponent}>
-              <label >Website URL</label>
+              <label  className={styles.formComponent_label} >Website URL</label>
               <br />
-              <input  type="text" placeholder="Company Website URL" />
+              <input className={styles.formComponent_input}  type="text" placeholder="Company Website URL" />
             </div>
 
             <div className={styles.formComponent}>
-              <label >Password</label>
+              <label  className={styles.formComponent_label} >Password</label>
               <br />
-              <input  type="text" placeholder="Password  ( minimum 8 characters )" />
+              <input className={styles.formComponent_input} type="text" placeholder="Password  ( minimum 8 characters )" />
             </div>
 
             <input className={styles.nextSubmitBtn} type="submit" value="Get Started Now" />
            
           </form>
-        <p className={styles.terms}><span>By clicking "Get Started Now", you agree to CoSchedule’s </span><span className={styles.underlined}>terms of service, end user agreement, and privacy policy</span><span>; you are 16 years or older; and you will receive information from CoSchedule from which you can opt out at any time.</span></p>
+        <p className={styles.terms}><span className={styles.terms_span}>By clicking "Get Started Now", you agree to CoSchedule’s </span><span className={styles.underlined}>terms of service, end user agreement, and privacy policy</span><span className={styles.terms_span}>; you are 16 years or older; and you will receive information from CoSchedule from which you can opt out at any time.</span></p>
         </div>
 
         {/* <p className={styles.}terms" style={{ marginTop:'60px'}}>
