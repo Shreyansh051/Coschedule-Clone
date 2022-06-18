@@ -1,6 +1,7 @@
 import React, { useState } from "react";
-import { useNavigate } from "react-router-dom";
-const SignIn = () => {
+import { useNavigate, NavLink } from "react-router-dom";
+
+const Signin = () => {
   const navigate = useNavigate();
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
@@ -51,10 +52,11 @@ const SignIn = () => {
           required
         />
         <br />
-        <input type="submit" onClick={loginUser} />
       </form>
+      <br />
+      <NavLink to="/Signup">Need an account?</NavLink>
     </div>
   );
 };
 
-export default SignIn;
+export default Signin;

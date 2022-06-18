@@ -91,7 +91,7 @@ const Signup = () => {
           required
         />
         <br />
-        <label htmlFor="website">Enter Wwebsite Url</label>
+        <label htmlFor="website">Enter website Url</label>
         <br />
         <input
           type="website"
