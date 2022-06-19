@@ -1,5 +1,5 @@
 import styles from "../Css/marksuit.module.css";
-import Navbar from "../component/Navbar";
+// import Navbar from "../component/Navbar";
 import Footer from "../component/Footer"
 const Marksuit = (props) => {
   return (
