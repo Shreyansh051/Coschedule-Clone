@@ -82,10 +82,9 @@ The fastest growing marketing work management software.
 5. Another problem was to merge all of the files in a proper sequence which was again a difficult task for us because while merging and connecting all the pages some of the pages had the same name, and while running the site it was redirecting to some other pages so it was difficult to find the location.
 
 ## Team
-
+- Shreyansh Gupta
 - Niraj Pal
 - Sunil Sahu
-- Shreyansh Gupta
 - Chandan Kumar
 - Dhiraj
 - Sachin Ingale
