@@ -92,7 +92,7 @@ The fastest growing marketing work management software.
 
 ## IMP Link's
 
-- [Click here](https://github.com/Saradhii/Sephora-nnnow.com-clone.git) Github repository.
+- [Click here](https://github.com/Shreyansh051/Coschedule-Clone) Github repository.
 - [Click here](https://medium.com/@sachiningale1998/coschedule-com-clone-83ceaa639b78) to see our blogs.
 - [Click here](https://cosch.netlify.app/) Netlify Link.
 - [Click here](https://drive.google.com/file/d/1A75lNAdyCqUgcv9W4Zx9j8PEuvfJBLcd/view?usp=sharing) Demo video of the project.
