@@ -6,9 +6,12 @@ const GroceryItem = (props) => {
   
     return ( 
 
-    <div className={styles.main}>
-   <Navbar />
-            <div className={styles.browndiv}>
+    
+    <div className={styles.maincontainer}>
+            <div className={styles.nvdiv}> <Navbar /></div>
+           
+            <div  className={styles.main}>
+             <div className={styles.browndiv}>
                 <div className={styles.browndiv1}>
                       <div className={styles.headingpart}>
                           <h1 className={styles.shedule}>CoSchedule</h1>
@@ -108,11 +111,15 @@ const GroceryItem = (props) => {
             <p>By clicking "Get Started Now", you agree to CoSchedule’s terms of service, end user agreement, 
                 and privacy policy; you are 16 years or older; 
                 and you will receive information from CoSchedule from which you can opt out at any time.</p>
-        </form>
+         </form>
             
         </div>
+    </div>
 
-     <Footer />   
+    
+      
+       
+      <div> <Footer />  </div> 
         
     </div>
     )

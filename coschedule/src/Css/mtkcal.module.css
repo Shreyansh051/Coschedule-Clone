@@ -1,45 +1,61 @@
 .main {
-  height: 1000px;
+  
   /* border: 1px solid red; */
   display: flex;
   justify-content: center;
+  /* margin-left: 30px; */
+  height: 4500px;
+
+  
+}
+.nvdiv{
+  /* width: 1000px;
+  margin-left: 210px; */
 }
 .browndiv {
-  width: 78%;
+  width: 85%;
   height: 900px;
   /* border: 1px solid blue; */
+  margin-left: 5%;
 }
 .browndiv1 {
   height: 500px;
-  width: 100%;
+  width: 1000px;
   background-color: rgb(252, 144, 94);
 }
 .headingpart {
-  height: 60px;
+  height: 80px;
   width: 100%;
   /* border: 1px solid forestgreen; */
   display: flex;
   justify-content: space-evenly;
   color: white;
+  font-size: 21px;
+  font-weight: 500;
+  padding-top: 14px;
 }
 .shedule {
   margin-top: 12px;
+  
+
 }
 .bring {
   color: white;
-  font-size: 23px;
+  font-size: 27px;
+  font-weight: bolder;
+  margin-top: 16px;
 }
 .para {
   margin-top: 70px;
   color: white;
   font-size: 20px;
-  margin-left: 170px;
+  margin-left: 130px;
   width: 800px;
 }
 .pic1 {
   width: 850px;
   position: absolute;
-  margin-left: -30%;
+  margin-left: 9%;
 }
 .manage {
   margin-top: 280px;
@@ -53,8 +69,9 @@
   color: rgb(88, 86, 86);
   margin-left: 220px;
   float: left;
-  margin-top: -3px;
+  margin-top: 7px;
   text-align: left;
+  font-style: italic;
 }
 .pinkdiv {
   height: 300px;
@@ -76,7 +93,7 @@
   height: 130px;
   float: left;
   margin-top: 20px;
-  margin-left: 20px;
+  margin-left: 50px;
   color: rgb(124, 117, 117);
 }
 .marketers {
@@ -126,7 +143,7 @@
 }
 .picdiv > img {
   height: 700px;
-  padding-left: 80px;
+  padding-left: 10px;
 }
 .picdiv > p {
   padding-left: 20px;
@@ -136,13 +153,16 @@
 }
 
 .rightdiv {
+ 
+  border: .1px solid rgb(141, 133, 133);
+  width: 100%;
   height: 100%;
-  border: 1px solid black;
-  width: 400px;
+  /* margin-left: 5px; */
+ 
 }
 label {
   float: left;
-  padding-left: 20px;
+  padding-left: 12px;
   margin-top: 3px;
   color: rgb(129, 126, 126);
   font-weight: bolder;
@@ -153,6 +173,7 @@ input {
   height: 34px;
   border-radius: 3px;
   border: 0.4px solid rgb(160, 151, 151);
+  padding-left: 3px;
 }
 .lastDiv {
   margin-top: 10px;
@@ -168,8 +189,9 @@ input {
   border: none;
 }
 form > h2 {
-  padding-top: 20px;
+  padding-top: 18px;
   color: rgb(245, 162, 39);
+  font-size: 20px;
 }
 form > p {
   color: rgb(122, 110, 110);
@@ -177,4 +199,5 @@ form > p {
   width: 95%;
   padding-left: 8px;
   font-size: 13px;
+  margin-top: 5px;
 }
