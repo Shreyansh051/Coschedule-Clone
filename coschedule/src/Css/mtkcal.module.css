@@ -5,7 +5,7 @@
   justify-content: center;
   /* margin-left: 30px; */
   height: 4500px;
-
+margin-top: 20px;
   
 }
 .nvdiv{
@@ -16,7 +16,7 @@
   width: 85%;
   height: 900px;
   /* border: 1px solid blue; */
-  margin-left: 5%;
+  margin-left: 3%;
 }
 .browndiv1 {
   height: 500px;
@@ -44,6 +44,7 @@
   font-size: 27px;
   font-weight: bolder;
   margin-top: 16px;
+  color: white
 }
 .para {
   margin-top: 70px;
@@ -51,6 +52,7 @@
   font-size: 20px;
   margin-left: 130px;
   width: 800px;
+  font-style: italic;
 }
 .pic1 {
   width: 850px;
@@ -63,6 +65,8 @@
   margin-left: 200px;
   color: rgb(53, 52, 52);
   font-size: 29px;
+  color: rgb(245, 10, 10);
+  font-weight: bold;
 }
 .manage2 {
   width: 520px;
@@ -74,18 +78,20 @@
   font-style: italic;
 }
 .pinkdiv {
-  height: 300px;
+  height: 350px;
   width: 100%;
   background-color: rgb(255, 226, 232);
 }
 .innerdiv {
   height: 200px;
   width: 900px;
-  margin-left: 47px;
+  margin-left: 50px;
+  margin-top: 5%;
   background-color: white;
   border-radius: 9px;
-  margin-top: 30px;
+  padding-top: 20px;
   display: flex;
+  font-size: 22px;
   box-shadow: 2px 2px 7px 2px rgb(114, 107, 107);
 }
 .innerdivimg {
@@ -93,18 +99,23 @@
   height: 130px;
   float: left;
   margin-top: 20px;
-  margin-left: 50px;
+  margin-left: 65px;
   color: rgb(124, 117, 117);
 }
 .marketers {
-  color: rgb(82, 78, 78);
-  padding-top: 20px;
+ 
+  padding-top: 50px;
+  width: 600px;
+  font-weight: bold;
+  color: rgb(110, 108, 108);
 }
 .before {
   width: 500px;
   margin-left: 200px;
-  color: rgb(52, 49, 54);
-  font-size: 20px;
+  color: rgb(94, 93, 95);
+  font-size: 17px;
+  text-align: left;
+  font-style: oblique;
 }
 .smalldiv {
   height: 200px;
@@ -115,11 +126,14 @@
   margin-top: 30px;
   display: flex;
   color: white;
+  font-size: 22px;
   justify-content: center;
+  font-weight: bold;
   box-shadow: 2px 2px 7px 2px rgb(114, 107, 107);
 }
 .smalldiv > h1 {
   margin-top: 55px;
+  font-size: x-large;
 }
 .pic4 {
   height: 600px;
@@ -162,7 +176,7 @@
 }
 label {
   float: left;
-  padding-left: 12px;
+  padding-left: 25px;
   margin-top: 3px;
   color: rgb(129, 126, 126);
   font-weight: bolder;
