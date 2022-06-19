@@ -4,22 +4,20 @@
     margin: auto;
   
 }
-.navdiv{
-    width: 800px;
-}
+
 .head{
-    width: 840px;
+    width: 850px;
     color: rgb(80, 79, 79);
     font-weight: bold;
     margin-left: 210px;
-    font-size: 42px;
-    margin-top: 60px;
+    font-size: 45px;
+    margin-top: 50px;
 }
 .head+.para{
     color: rgb(109, 102, 102);
     font-style: italic;
     font-size: 21px;
-    margin-left: 290px;
+    margin-left: 340px;
     width: 700px;
     margin-top: 10px;
 }
@@ -45,6 +43,7 @@
     width: 560px;
     margin-left: 310px;
     font-size: 16px;
+    font-style: oblique;
 }
 .griddiv{
     display: grid;
@@ -71,6 +70,7 @@
 .griddivimg+h3{
     color: rgb(100, 93, 93);
     margin-left: 40px;
+    font-style: oblique;
 }
 .flexdiv1{
     display: flex;
