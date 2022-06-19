@@ -11,7 +11,7 @@ import Customer from "../pages/Customer_Stories/Customer";
 import GroceryItem from "../pages/mktcal";
 
 
-// import Marksuit from "../pages/marksuit";
+import Marksuit from "../pages/marksuit";
 // import Signup from "../pages/Signup";
 const AllRoutes = () => {
   return (
@@ -28,7 +28,7 @@ const AllRoutes = () => {
         <Route path="/demo" element={<GetADemo />} />
         <Route path="/Customer" element={<Customer/>}/>
         <Route path="/mtkcal" element={<GroceryItem/>}/>
-        {/* <Route path="/MarkSuit" element={<Marksuit/>}/> */}
+        <Route path="/MarkSuit" element={<Marksuit/>}/>
       </Routes>
      
     </div>
