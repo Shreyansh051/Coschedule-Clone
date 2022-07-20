@@ -39,7 +39,7 @@ const Signup = () => {
 
     const data = await res.json();
     if (res.status === 422 || !data) {
-      window.alert("Invalid Registration");
+     window.alert("Invalid Registration");
       console.log("Invalid Registration");
     } else {
       window.alert("Registration Success");
