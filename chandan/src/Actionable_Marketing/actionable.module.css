@@ -113,6 +113,8 @@
 }
 
 
+
+
 .industry_main_div{
     height:300px;
     margin-top: 260px;
@@ -298,7 +300,7 @@ color:#000
 }
 
 
-
+                /* here i wtitten sedgwick_main_container div css */
 
 
 .sedgwick_main_container{
@@ -619,5 +621,250 @@ margin-top:60px;
 .last_div_button2:hover{
     transform: scale(1.05);
     cursor: pointer;
+
+}
+
+
+
+@media  (max-width: 450px) {
+    .develop_main_div{
+        height: 700px;
+        display: block;     
+    }
+    .develop_main_second_div{
+    /* border: 1px solid yellow; */
+    width:90%;
+    display: block;
+}
+.develop_child_1_div{
+    margin-top: 15px;
+    width: 100%;
+    text-align: center;
+}
+.develop_child_1_div_h1{
+    font-size:32px;
+}
+.develop_child_1_div_p{
+    font-size: 16px;
+}
+.develop_child_1_div_img{
+   margin-top: -110px;
+   margin-left: -275px;
+}
+.develop_child_1_div_p1{
+    font-size: 15px;
+    line-height:27px;
+}
+.develop_child_2_div{
+    width: 90%;
+}
+.develop_child_2_div_img1{
+    width: 250px;
+    margin-left: 250px;
+}
+.develop_child_2_div_img2{
+    width: 115%;
+    margin-left: 0px;
+
+}
+
+            /* here i written industry div */
+
+
+.industry_main_div{
+    height:800px;  
+}
+.industry_child_div{ 
+  width:88%;
+  display:block;
+}
+.industry_son_div{
+    width:100%;   
+}
+.industry_child_div_image{
+   margin-left:25%;
+}
+
+                  /* here i written improve_div_ css */
+
+.improve_main_container_div{
+  margin-top: 50px;
+  height: auto;
+}
+
+.improve_main_div{
+ display: flex;
+ flex-direction: column-reverse;
+ justify-content:space-around;
+ margin: 0 auto;
+ width: 81%;
+ 
+}
+.improve_child_div{
+    width: 100%;
+    flex-direction: column-reverse;
+}
+.improve_div_h2{
+  font-size: 22px;
+  font-weight:550;
+  font-family: "MuseoSans-700",sans-serif;
+  margin-top: 10px;
+  line-height: 130%;
+  letter-spacing: -0.3px;
+}
+.improve_div_spam{
+    font-weight:400;
+    font-family: "MuseoSans-300",sans-serif;
+    font-size: 14px;
+    line-height: 140%;
+    color: #4b4b4b;
+}
+.improve_child_div_img{
+   height: 100%;
+   width: 110%;
+}
+
+
+
+
+                 /* here i wrote spend in the media query */
+
+
+.Spend_container_main_div_spam{
+    height: auto;
+    margin-top: 50px;
+}
+.Spend_main_div{
+    display: block;
+    width: 85%;
+}
+.Spend_child_div{
+    width: 100%;
+}
+.Spend_div_h1{
+    font-size: 22px;
+    font-weight:650;
+    margin-top: 10px;
+}
+.Spend_div_spam{
+    font-size: 14px;
+}
+.Spend_child_div_img{
+    height: 300px;
+}
+
+                            /* here i have given become div css */
+
+.become_container_main_div{
+    height: 350px;
+    margin-top:120px;
+    
+}
+.become_main{
+    width: 92%;
+}
+
+.become_child_button{
+    margin-top:30px;
+    margin-left: 60px;
+}
+
+.become_main_div_img1{
+   margin-left: -190px;
+   margin-top: 200px;
+}
+.become_main_div_img2{
+    margin-left: -160px;
+    margin-top: -75px;
+}
+
+.become_child_div_h2{
+    font-size: 28px;
+    margin-top: 70px;
+}
+
+
+
+
+        /* here i given features div css */
+
+.features_container{
+    grid-template-columns: repeat(1 , 320px);
+    width: 82%;
+    margin: 0 auto;
+
+}
+
+.features_item >h2{
+  font-size: 20px;
+font-weight: 650;
+}
+.features_item >p{
+    font-size: 14px;
+}
+
+                /* here i wtitten sedgwick_main_container div css */
+
+
+.sedgwick_main_container{
+    width: 92%;
+    margin-left: 2%;
+    background-color:#4bbb8d ;
+    margin-top: 100px;
+    text-align: center;
+    box-shadow: 2px 2px 50px 0 rgb(0 0 0 / 50%);
+    border-radius: 10px;
+    padding: 90px 90px 70px;
+    position: relative;
+    
+
+}
+.sedgwick_main_container_img{
+    position: absolute;
+    width: 65px;
+    top: -35px;
+    left: 47%;
+}
+.sedgwick_main_container_img1{
+    position: absolute;
+    width: 250px;
+    bottom: -60px;
+    left: 10%;
+}
+.sedgwick_main_container>h3{
+   
+    font-family: "MuseoSans-300",sans-serif;
+    font-style: normal;
+    font-size: 18px;
+    color:#fff;
+    font-weight: 400;
+    width:68%;
+    margin-left:15%;
+    line-height:30px;
+}
+.sedgwick_child_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+
+.sedgwick_child_container>p{
+    margin-left: 20px;
+    color: white;
+    font-weight: 600;
+}
+.sedgwick_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sedgwick_container>img{
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+}
+
 
 }
